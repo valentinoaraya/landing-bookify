@@ -1,0 +1,20 @@
+.navBar {
+    padding: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleNavBar {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    color: white;
+}

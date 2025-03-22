@@ -1,0 +1,15 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.pHero {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+    color: white;
+}

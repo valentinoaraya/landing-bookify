@@ -1,0 +1,11 @@
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    width: 900px;
+    background: -webkit-linear-gradient(left, var(--celeste), white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
