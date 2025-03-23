@@ -1,0 +1,13 @@
+.benefitsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 0;
+}

@@ -1,0 +1,27 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.pFooter {
+    color: white;
+}
+
+.contact {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact p {
+    color: white;
+
+}

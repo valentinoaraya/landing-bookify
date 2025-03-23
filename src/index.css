@@ -12,6 +12,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Archivo", sans-serif;
   background-color: var(--azul);
 }

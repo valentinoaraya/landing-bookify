@@ -1,0 +1,44 @@
+.howItWorksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.howItWorksContent {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.howItWorksSteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.step {
+    margin: 1rem 0;
+}
+
+.stepTitle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pStep {
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    color: white;
+}
+
+.howItWorksImage {
+    width: 70%;
+    border-radius: 10px;
+    height: 55vh;
+    background: linear-gradient(to right, var(--azul-claro), var(--celeste));
+}

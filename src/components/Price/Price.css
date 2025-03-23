@@ -1,0 +1,37 @@
+.priceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.titlePrice {
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    user-select: none;
+}
+
+.titlePrice span {
+    background: -webkit-linear-gradient(left, var(--celeste), var(--azul-claro));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.priceContent {
+    margin: 3rem 0;
+}
+
+.priceItem {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.priceItem h2 {
+    font-size: 1.8rem;
+    color: white;
+}
