@@ -11,9 +11,15 @@ function App() {
     <main>
       <NavBar />
       <Hero />
-      <Benefits />
-      <HowItWorks />
-      <Price />
+      <section id="benefits">
+        <Benefits />
+      </section>
+      <section id='howItWorks'>
+        <HowItWorks />
+      </section>
+      <section id='price'>
+        <Price />
+      </section>
       <Footer />
     </main>
   )
