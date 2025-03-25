@@ -4,11 +4,12 @@ interface Props {
     children: React.ReactNode;
     width?: string;
     onSubmit?: () => void;
+    boxShadow?: boolean;
 }
 
-const Button: React.FC<Props> = ({ children, width, onSubmit }) => {
+const Button: React.FC<Props> = ({ children, width, onSubmit, boxShadow }) => {
     return (
-        <button className="button"
+        <button className={boxShadow ? "button boxShadow" : "button"}
             style={{
                 width: width
             }}

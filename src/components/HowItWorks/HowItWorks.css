@@ -37,8 +37,12 @@
 }
 
 .howItWorksImage {
+    padding: .5rem;
     width: 70%;
     border-radius: 10px;
-    height: 55vh;
     background: linear-gradient(to right, var(--azul-claro), var(--celeste));
+
+    video {
+        border-radius: 5px;
+    }
 }

@@ -5,11 +5,12 @@ import { CheckIcon, MoneyIcon, NotificationIcon } from "../../../common/Icons/Ic
 interface Props {
     title: string;
     description: string;
+    video?: string;
     image?: string;
     style: "vertical" | "horizontal" | "horizontal-reverse" | "special-mobile";
 }
 
-const BenefitSection: React.FC<Props> = ({ title, description, style }) => {
+const BenefitSection: React.FC<Props> = ({ title, description, style, image, video }) => {
 
     const parrafs = description.split("\n")
 
@@ -79,8 +80,18 @@ const BenefitSection: React.FC<Props> = ({ title, description, style }) => {
                     </div>
                 }
             </div>
-            <div className="benefitImage">
-
+            <div className="benefitImage"
+                style={{ width: image ? style === "vertical" ? "100%" : "50%" : style === "special-mobile" ? "28%" : "100%" }}
+            >
+                {
+                    video ?
+                        <video autoPlay loop muted playsInline width={"100%"}>
+                            <source src={video} type="video/mp4" />
+                            Tu navegador no soporta videos
+                        </video>
+                        :
+                        <img src={image} alt="Benefit" />
+                }
             </div>
         </div>
     );

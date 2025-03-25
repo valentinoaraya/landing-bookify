@@ -22,10 +22,18 @@
 }
 
 .benefitImage {
-    width: 100%;
+    padding: .5rem;
     background: linear-gradient(to right, var(--azul-claro), var(--celeste));
-    height: 60vh;
     border-radius: 10px;
+
+    video {
+        border-radius: 5px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 5px;
+    }
 }
 
 .horizontal {
@@ -51,7 +59,7 @@
 
 .special-mobile {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 
     .dataBenefit {
         width: auto;

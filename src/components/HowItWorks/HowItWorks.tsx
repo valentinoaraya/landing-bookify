@@ -1,6 +1,7 @@
 import "./HowItWorks.css";
 import Title from "../../common/Title/Title";
 import { NumberOneIcon, NumberTwoIcon, NumberThreeIcon } from "../../common/Icons/Icons";
+import videoAddingService from "../../assets/videos/agregando-servicio-opt.mp4"
 
 const HowItWorks = () => {
     return (
@@ -61,7 +62,10 @@ const HowItWorks = () => {
                     </div>
                 </div>
                 <div className="howItWorksImage">
-
+                    <video autoPlay loop muted playsInline width={"100%"}>
+                        <source src={videoAddingService} type="video/mp4" />
+                        Tu navegador no soporta videos
+                    </video>
                 </div>
             </div>
         </div>
