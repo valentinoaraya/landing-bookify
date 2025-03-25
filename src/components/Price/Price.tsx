@@ -48,7 +48,12 @@ const Price = () => {
                     <h2>Soporte técnico dedicado</h2>
                 </div>
             </div>
-            <Button width="300px">Empezar con Bookify</Button>
+            <Button
+                width="300px"
+                onSubmit={() => window.open("https://wa.me/5492625660880?text=%C2%A1Hola!%20Quiero%20empezar%20a%20usar%20Bookify%20en%20mi%20empresa.%20%C2%BFPod%C3%A9s%20contarme%20c%C3%B3mo%20es%20el%20proceso%3F", '_blank')}
+            >
+                Empezar con Bookify
+            </Button>
         </div>
     );
 }
