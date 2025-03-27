@@ -36,12 +36,12 @@ const BenefitSection: React.FC<Props> = ({ title, description, style, image, vid
                         <div className="iconsContainer">
                             <div className="iconContainer">
                                 <CheckIcon
-                                    widht="20px"
+                                    width="20px"
                                     height="20px"
                                     fill="#A8DADC"
                                 />
                                 <Title
-                                    fontSize="1.2rem"
+                                    fontSize={window.innerWidth <= 1030 ? "1rem" : "1.2rem"}
                                     width="100%"
                                     textAlign="left"
                                 >
@@ -50,12 +50,12 @@ const BenefitSection: React.FC<Props> = ({ title, description, style, image, vid
                             </div>
                             <div className="iconContainer">
                                 <NotificationIcon
-                                    widht="20px"
+                                    width="20px"
                                     height="20px"
                                     fill="#A8DADC"
                                 />
                                 <Title
-                                    fontSize="1.2rem"
+                                    fontSize={window.innerWidth <= 1030 ? "1rem" : "1.2rem"}
                                     width="100%"
                                     textAlign="left"
                                 >
@@ -64,12 +64,12 @@ const BenefitSection: React.FC<Props> = ({ title, description, style, image, vid
                             </div>
                             <div className="iconContainer">
                                 <MoneyIcon
-                                    widht="20px"
+                                    width="20px"
                                     height="20px"
                                     fill="#A8DADC"
                                 />
                                 <Title
-                                    fontSize="1.2rem"
+                                    fontSize={window.innerWidth <= 1030 ? "1rem" : "1.2rem"}
                                     width="100%"
                                     textAlign="left"
                                 >
@@ -80,9 +80,7 @@ const BenefitSection: React.FC<Props> = ({ title, description, style, image, vid
                     </div>
                 }
             </div>
-            <div className="benefitImage"
-                style={{ width: image ? style === "vertical" ? "100%" : "50%" : style === "special-mobile" ? "28%" : "100%" }}
-            >
+            <div className={`benefitImage ${image ? style === "vertical" ? "imageVertical" : "imageHorizontal" : style === "special-mobile" ? "videoSpecialMobile" : "video"}`}>
                 {
                     video ?
                         <video autoPlay loop muted playsInline width={"100%"}>

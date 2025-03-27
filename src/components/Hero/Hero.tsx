@@ -6,7 +6,11 @@ import videoSchedulingAppointment from "../../assets/videos/pidiendo-turno-opt.m
 const Hero = () => {
     return (
         <div className="heroContainer">
-            <Title>Gestioná tus turnos de manera eficiente</Title>
+            <Title
+                fontSize={window.innerWidth <= 600 ? "2rem" : "3rem"}
+            >
+                Gestioná tus turnos de manera eficiente
+            </Title>
             <p className="pHero">Bookify te ayuda a organizar y optimizar los turnos de tus clientes en un solo lugar</p>
             <Button
                 width="300px"

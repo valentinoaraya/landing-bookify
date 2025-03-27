@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
 }
 
 .howItWorksContent {
@@ -44,5 +44,40 @@
 
     video {
         border-radius: 5px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .howItWorksContent {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .howItWorksSteps {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+
+    .step {
+        width: 300px;
+    }
+
+    .howItWorksImage {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1160px) {
+
+    .howItWorksSteps {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .step {
+        width: 100%;
     }
 }

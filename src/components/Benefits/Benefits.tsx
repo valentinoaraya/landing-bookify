@@ -9,7 +9,11 @@ import imageAppointmentsPanel from "../../assets/images/panel-turnos.png"
 const Benefits = () => {
     return (
         <div className="benefitsContainer">
-            <Title>¿Por qué elegir Bookify?</Title>
+            <Title
+                fontSize={window.innerWidth <= 760 ? "2rem" : "3rem"}
+            >
+                ¿Por qué elegir Bookify?
+            </Title>
             <div className="benefits">
                 <Benefit
                     title="Fácil de usar"

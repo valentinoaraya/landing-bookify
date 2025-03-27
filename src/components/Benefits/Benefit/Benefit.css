@@ -60,6 +60,7 @@
 .special-mobile {
     display: flex;
     gap: 1rem;
+    justify-content: space-between;
 
     .dataBenefit {
         width: auto;
@@ -80,5 +81,112 @@
         align-items: center;
         gap: .5rem;
         margin: .8rem 0;
+    }
+
+    .dataBenefit {
+        width: 700px;
+    }
+}
+
+.imageVertical {
+    width: 100%;
+}
+
+.imageHorizontal {
+    width: 50%;
+}
+
+.videoSpecialMobile {
+    width: 350px;
+}
+
+.video {
+    width: 100%;
+}
+
+@media (max-width: 1160px) {
+    .special-mobile {
+        .dataBenefit {
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .special-mobile {
+        .dataBenefit {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .horizontal {
+        flex-direction: column;
+        gap: 0;
+
+        .dataBenefit {
+            width: 100%;
+        }
+    }
+
+    .horizontal-reverse {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+
+        .dataBenefit {
+            width: 100%;
+        }
+
+        .imageHorizontal {
+            width: 80%;
+        }
+    }
+
+    .special-mobile {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+
+        .dataBenefit {
+            width: 100%;
+        }
+
+        .videoSpecialMobile {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .titleBenefit {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .special-mobile {
+        .videoSpecialMobile {
+            width: 300px;
+        }
+    }
+
+    .horizontal-reverse {
+        .imageHorizontal {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .special-mobile {
+        .videoSpecialMobile {
+            width: 250px;
+        }
+    }
+
+    .titleBenefit {
+        font-size: 1.8rem;
     }
 }

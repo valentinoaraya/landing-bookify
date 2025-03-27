@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+    gap: 1rem;
 }
 
 .footerTitle {
@@ -25,5 +26,10 @@
 
 .contact p {
     color: white;
+}
 
+@media (max-width: 530px) {
+    .footerContainer {
+        flex-direction: column;
+    }
 }

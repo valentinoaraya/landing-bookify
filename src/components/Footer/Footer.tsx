@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footerContacts">
                 <div className="contact">
                     <EmailIcon
-                        widht="20"
+                        width="20"
                         height="20"
                         fill="#A8DADC"
                     />
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="contact">
                     <PhoneIcon
-                        widht="20"
+                        width="20"
                         height="20"
                         fill="#A8DADC"
                     />
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className="contact">
                     <InstagramIcon
-                        widht="20"
+                        width="20"
                         height="20"
                         fill="#A8DADC"
                     />

@@ -11,6 +11,7 @@
     color: white;
     font-weight: 900;
     user-select: none;
+    text-align: center;
 }
 
 .titlePrice span {
@@ -34,4 +35,24 @@
 .priceItem h2 {
     font-size: 1.8rem;
     color: white;
+}
+
+@media (max-width: 760px) {
+    .titlePrice {
+        font-size: 2.5rem;
+    }
+
+    .priceItem h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 465px) {
+    .titlePrice {
+        font-size: 2.2rem;
+    }
+
+    .priceItem h2 {
+        font-size: 1.2rem;
+    }
 }

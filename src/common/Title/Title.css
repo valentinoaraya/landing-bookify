@@ -9,3 +9,9 @@
     -webkit-text-fill-color: transparent;
     user-select: none;
 }
+
+@media (max-width: 1300px) {
+    .title {
+        width: 100%;
+    }
+}

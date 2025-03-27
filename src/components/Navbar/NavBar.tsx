@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import "./NavBar.css"
+import { MenuIcon, CloseIcon } from "../../common/Icons/Icons";
 
 const NavBar = () => {
 
     const [scrolled, setScrolled] = useState(false);
+    const [isOpen, setIsOpen] = useState(false)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -32,12 +34,55 @@ const NavBar = () => {
                 >
                     Bookify
                 </h1>
-                <ul>
-                    <li onClick={() => handleScrollToSection("benefits")}>Beneficios</li>
-                    <li onClick={() => handleScrollToSection("howItWorks")}>Cómo funciona</li>
-                    <li onClick={() => handleScrollToSection("price")}>Precio</li>
-                </ul>
+                {
+                    window.innerWidth >= 700 ?
+                        <ul>
+                            <li onClick={() => handleScrollToSection("benefits")}>Beneficios</li>
+                            <li onClick={() => handleScrollToSection("howItWorks")}>Cómo funciona</li>
+                            <li onClick={() => handleScrollToSection("price")}>Precio</li>
+                        </ul>
+                        :
+                        <div
+                            className="divIconContainer"
+                            onClick={() => setIsOpen(true)}
+                        >
+                            <MenuIcon
+                                width="35px"
+                                height="35px"
+                                fill="white"
+                            />
+                        </div>
+                }
             </div>
+            {
+                window.innerWidth <= 700 &&
+                <div className={`sideBar ${isOpen ? "open" : ""}`}>
+                    <div
+                        className="divIconContainer closeButton"
+                        onClick={() => setIsOpen(false)}
+                    >
+                        <CloseIcon
+                            width="35px"
+                            height="35px"
+                            fill="white"
+                        />
+                    </div>
+                    <ul className="ulSideBar">
+                        <li className="liSideBar" onClick={() => {
+                            handleScrollToSection("benefits")
+                            setIsOpen(false)
+                        }}>Beneficios</li>
+                        <li className="liSideBar" onClick={() => {
+                            handleScrollToSection("howItWorks")
+                            setIsOpen(false)
+                        }}>Cómo funciona</li>
+                        <li className="liSideBar" onClick={() => {
+                            handleScrollToSection("price")
+                            setIsOpen(false)
+                        }}>Precio</li>
+                    </ul>
+                </div>
+            }
         </nav>
     );
 }

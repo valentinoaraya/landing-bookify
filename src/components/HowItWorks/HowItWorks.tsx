@@ -6,18 +6,22 @@ import videoAddingService from "../../assets/videos/agregando-servicio-opt.mp4"
 const HowItWorks = () => {
     return (
         <div className="howItWorksContainer">
-            <Title>Comenzá a utilizarlo ahora</Title>
+            <Title
+                fontSize={window.innerWidth <= 760 ? "2rem" : "3rem"}
+            >
+                Comenzá a utilizarlo ahora
+            </Title>
             <div className="howItWorksContent">
                 <div className="howItWorksSteps">
                     <div className="step">
                         <div className="stepTitle">
                             <NumberOneIcon
-                                widht="40px"
-                                height="40px"
+                                width={window.innerWidth <= 760 ? "30px" : "40px"}
+                                height={window.innerWidth <= 760 ? "30px" : "40px"}
                                 fill="#A8DADC"
                             />
                             <Title
-                                fontSize="1.8rem"
+                                fontSize={window.innerWidth <= 760 ? "1.5rem" : "1.8rem"}
                                 width="100%"
                                 textAlign="left"
                             >
@@ -29,12 +33,12 @@ const HowItWorks = () => {
                     <div className="step">
                         <div className="stepTitle">
                             <NumberTwoIcon
-                                widht="40px"
-                                height="40px"
+                                width={window.innerWidth <= 760 ? "30px" : "40px"}
+                                height={window.innerWidth <= 760 ? "30px" : "40px"}
                                 fill="#A8DADC"
                             />
                             <Title
-                                fontSize="1.8rem"
+                                fontSize={window.innerWidth <= 760 ? "1.5rem" : "1.8rem"}
                                 width="100%"
                                 textAlign="left"
                             >
@@ -46,12 +50,12 @@ const HowItWorks = () => {
                     <div className="step">
                         <div className="stepTitle">
                             <NumberThreeIcon
-                                widht="40px"
-                                height="40px"
+                                width={window.innerWidth <= 760 ? "30px" : "40px"}
+                                height={window.innerWidth <= 760 ? "30px" : "40px"}
                                 fill="#A8DADC"
                             />
                             <Title
-                                fontSize="1.8rem"
+                                fontSize={window.innerWidth <= 760 ? "1.5rem" : "1.8rem"}
                                 width="100%"
                                 textAlign="left"
                             >

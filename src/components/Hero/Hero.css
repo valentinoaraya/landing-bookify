@@ -26,3 +26,13 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: 600px) {
+    .heroContainer {
+        height: 80vh;
+    }
+
+    .pHero {
+        font-size: 1rem;
+    }
+}

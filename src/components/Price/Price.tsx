@@ -9,7 +9,7 @@ const Price = () => {
             <div className="priceContent">
                 <div className="priceItem">
                     <CheckIcon
-                        widht="30"
+                        width={window.innerWidth <= 760 ? "20px" : "30px"}
                         height="30"
                         fill="#A8DADC"
                     />
@@ -17,7 +17,7 @@ const Price = () => {
                 </div>
                 <div className="priceItem">
                     <MoneyIcon
-                        widht="30"
+                        width={window.innerWidth <= 760 ? "20px" : "30px"}
                         height="30"
                         fill="#A8DADC"
                     />
@@ -25,7 +25,7 @@ const Price = () => {
                 </div>
                 <div className="priceItem">
                     <NotificationIcon
-                        widht="30"
+                        width={window.innerWidth <= 760 ? "20px" : "30px"}
                         height="30"
                         fill="#A8DADC"
                     />
@@ -33,7 +33,7 @@ const Price = () => {
                 </div>
                 <div className="priceItem">
                     <WalletIcon
-                        widht="30"
+                        width={window.innerWidth <= 760 ? "20px" : "30px"}
                         height="30"
                         fill="#A8DADC"
                     />
@@ -41,7 +41,7 @@ const Price = () => {
                 </div>
                 <div className="priceItem">
                     <PersonConfigIcon
-                        widht="30"
+                        width={window.innerWidth <= 760 ? "20px" : "30px"}
                         height="30"
                         fill="#A8DADC"
                     />
