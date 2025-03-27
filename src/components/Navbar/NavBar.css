@@ -107,3 +107,9 @@ ul li:hover {
         font-size: 2rem;
     }
 }
+
+@media (max-width: 500px) {
+    .navBarContainer {
+        padding: 1rem;
+    }
+}
