@@ -1,4 +1,4 @@
-# Bookify - Landing Page
+# 📘 Bookify - Landing Page
 
 ## Descripción
 Landing page diseñada para presentar *Bookify*, la plataforma de gestión de reservas. Su objetivo es proporcionar información sobre las funcionalidades del software, atraer usuarios y facilitar el contacto con posibles clientes.
