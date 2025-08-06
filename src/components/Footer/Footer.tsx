@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { EmailIcon, InstagramIcon, PhoneIcon } from "../../common/Icons/Icons";
+import { EmailIcon, InstagramIcon } from "../../common/Icons/Icons";
 
 const Footer = () => {
     return (
@@ -20,20 +20,12 @@ const Footer = () => {
                     <p>bookify.aedes@gmail.com</p>
                 </div>
                 <div className="contact">
-                    <PhoneIcon
-                        width="20"
-                        height="20"
-                        fill="#A8DADC"
-                    />
-                    <p>(+54) 2625660880</p>
-                </div>
-                <div className="contact">
                     <InstagramIcon
                         width="20"
                         height="20"
                         fill="#A8DADC"
                     />
-                    <p>@tinoaraya</p>
+                    <p>@aedes.tech</p>
                 </div>
             </div>
         </footer>
