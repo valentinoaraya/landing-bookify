@@ -15,7 +15,7 @@ const Footer = () => {
                     <EmailIcon
                         width="20"
                         height="20"
-                        fill="#A8DADC"
+                        fill="var(--azul-oscuro)"
                     />
                     <p>bookify.aedes@gmail.com</p>
                 </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                     <InstagramIcon
                         width="20"
                         height="20"
-                        fill="#A8DADC"
+                        fill="var(--azul-oscuro)"
                     />
                     <p>@aedes.tech</p>
                 </div>

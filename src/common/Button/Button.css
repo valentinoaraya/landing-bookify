@@ -8,8 +8,8 @@
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--blanco);
-    background: linear-gradient(to right, var(--azul-claro), var(--celeste));
-    border: 1px solid white;
+    background: linear-gradient(to right, var(--azul-oscuro), var(--azul-claro));
+    border: 1px solid rgb(142, 142, 142);
     border-radius: 10px;
     cursor: pointer;
     transition: all .1s ease;
@@ -25,11 +25,11 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    color: var(--azul);
+    color: white;
 }
 
 .boxShadow {
-    box-shadow: 0px 0px 30px 0px var(--celeste);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {

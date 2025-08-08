@@ -3,7 +3,7 @@
     font-weight: 900;
     text-align: center;
     width: 900px;
-    background: -webkit-linear-gradient(left, var(--celeste), white);
+    background: var(--azul-claro);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

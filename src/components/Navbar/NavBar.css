@@ -22,13 +22,17 @@
     cursor: pointer;
     font-size: 2.5rem;
     font-weight: 900;
-    color: white;
+    color: var(--azul-claro);
 }
 
 .navBarContainer.scrolled {
-    background-color: rgba(29, 53, 100, 0.5);
+    background-color: rgba(42, 47, 56, 0.5);
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.titleNavBar.scrolled {
+    color: white;
 }
 
 ul {
@@ -39,13 +43,17 @@ ul {
 }
 
 ul li {
-    color: white;
+    color: var(--azul-claro);
     cursor: pointer;
     transition: all 0.1 ease;
 }
 
+ul li.scrolled {
+    color: white;
+}
+
 ul li:hover {
-    color: var(--celeste);
+    color: var(--azul-claro);
 }
 
 .divIconContainer {
