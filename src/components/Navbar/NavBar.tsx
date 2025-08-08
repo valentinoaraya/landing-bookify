@@ -29,7 +29,7 @@ const NavBar = () => {
         <nav className="navBar">
             <div className={scrolled ? "navBarContainer scrolled" : "navBarContainer"}>
                 <h1
-                    className="titleNavBar"
+                    className={scrolled ? "titleNavBar scrolled" : "titleNavBar"}
                     onClick={() => window.scrollTo(0, 0)}
                 >
                     Bookify
@@ -37,9 +37,9 @@ const NavBar = () => {
                 {
                     window.innerWidth >= 700 ?
                         <ul>
-                            <li onClick={() => handleScrollToSection("benefits")}>Beneficios</li>
-                            <li onClick={() => handleScrollToSection("howItWorks")}>Cómo funciona</li>
-                            <li onClick={() => handleScrollToSection("price")}>Precio</li>
+                            <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("benefits")}>Beneficios</li>
+                            <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("howItWorks")}>Cómo funciona</li>
+                            <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("price")}>Precio</li>
                         </ul>
                         :
                         <div

@@ -33,14 +33,14 @@
 .pStep {
     font-size: 1.2rem;
     margin-top: .5rem;
-    color: white;
+    color: rgb(45, 45, 45);
 }
 
 .howItWorksImage {
     padding: .5rem;
     width: 70%;
     border-radius: 10px;
-    background: linear-gradient(to right, var(--azul-claro), var(--celeste));
+    background: linear-gradient(to right, var(--azul-oscuro), var(--azul-claro));
 
     video {
         border-radius: 5px;

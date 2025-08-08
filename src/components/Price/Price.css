@@ -15,7 +15,7 @@
 }
 
 .titlePrice span {
-    background: -webkit-linear-gradient(left, var(--celeste), var(--azul-claro));
+    background: -webkit-linear-gradient(left, var(--azul-oscuro), var(--azul-claro));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
