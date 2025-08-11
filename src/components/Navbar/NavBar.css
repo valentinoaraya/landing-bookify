@@ -26,7 +26,7 @@
 }
 
 .navBarContainer.scrolled {
-    background-color: rgba(42, 47, 56, 0.5);
+    background-color: rgba(36, 103, 109, 0.436);
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
@@ -53,7 +53,7 @@ ul li.scrolled {
 }
 
 ul li:hover {
-    color: var(--azul-claro);
+    text-decoration: underline;
 }
 
 .divIconContainer {

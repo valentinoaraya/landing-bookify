@@ -1,0 +1,32 @@
+.special-card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to left, #1283a22a, #ffffff);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Archivo", sans-serif;
+    text-align: left;
+}
+
+.special-card-description {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.special-card-image {
+    width: auto;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
