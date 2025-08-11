@@ -1,13 +1,17 @@
-.benefitsContainer {
+.benefits-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.benefits-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 8rem;
-}
-
-.benefits {
-    display: flex;
-    flex-direction: column;
+    gap: 30px;
     width: 100%;
 }
+

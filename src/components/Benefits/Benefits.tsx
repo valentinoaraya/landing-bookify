@@ -1,47 +1,52 @@
-import "./Benefits.css";
-import Title from "../../common/Title/Title";
-import Benefit from "./Benefit/Benefit";
-import videoPayingAppointment from "../../assets/videos/pagando-mp-opt.mp4"
-import imageRefund from "../../assets/images/reembolsar.png"
-import videoNotifications from "../../assets/videos/video-notificaciones2-opt.mp4"
-import imageAppointmentsPanel from "../../assets/images/panel-turnos.png"
+import Card from '../../common/Card/Card';
+import Title from '../../common/Title/Title';
+import SpecialCard from '../../common/Card/SpecialCard/SpecialCard';
+import './Benefits.css';
+import specialCardImage from '../../assets/images/specialCardImage.png';
+import refundUrlIcon from '../../assets/icons/refund.svg';
+import Adavantageicon from '../../assets/icons/advantage.svg';
+import MailIcon from '../../assets/icons/mail.svg';
 
 const Benefits = () => {
     return (
-        <div className="benefitsContainer">
-            <Title
-                fontSize={window.innerWidth <= 760 ? "2rem" : "3rem"}
-            >
+        <div className="benefits">
+            <Title  textAlign="right">
                 ¿Por qué elegir Bookify?
             </Title>
-            <div className="benefits">
-                <Benefit
-                    title="Fácil de usar"
-                    description={`Gestioná los turnos de tus clientes con nuestra interfaz intuitiva. \nFácil de usar para vos y para ellos.`}
-                    style="vertical"
-                    image={imageAppointmentsPanel}
-                />
-                <Benefit
-                    title="Cobrá señas con Mercado Pago"
-                    description={`Concectate con Mercado Pago y cobrá  señas para confirmar turnos de forma rápida y segura. \nTambién podés habilitar turnos sin necesidad de cobrar nada.`}
-                    style="horizontal"
-                    video={videoPayingAppointment}
-                />
-                <Benefit
-                    title="Sistema de reembolsos integrado"
-                    description={`Cuando un cliente cancela su turno con más de 24 hs de anticipación, se le devuelve automáticamente el 50% de la seña. \nSi vos cancelás el turno, se le reembolsa el 100% sin complicaciones.`}
-                    style="horizontal-reverse"
-                    image={imageRefund}
-                />
-                <Benefit
-                    title="Notificaciones automáticas para vos y tus clientes"
-                    description={`Te notificamos si se confirmó o canceló algún turno y enviamos recordatorios a tus clientes.`}
-                    style="special-mobile"
-                    video={videoNotifications}
-                />
+            <div className="benefits-cards">
+                <div className="benefits-list">
+                    <Card
+                        icon={<img src={Adavantageicon} className="icon-advantage" alt="Ventaja" />}
+                        title="Facil de Usar"
+                        description="Gestioná los turnos de tus clientes con nuestra interfaz intuitiva. Fácil de usar y para vos y para ellos"
+                    />
+                    <Card
+                        icon={<img src={refundUrlIcon} className="icon-reembolso" alt="Reembolso" />}
+                        title="Sistema de Rembolso Integrado"
+                        description={
+                                <>
+                                    Cuando un cliente cancela su turno con <strong>más de 24 horas</strong> de anticipación, el sistema automáticamente le reembolsa la seña.
+                                    {"\n"} Si el cliente cancela con <strong>menos de 24 horas</strong> de anticipación, se devuelve automáticamente el <strong>50%</strong> de la seña.
+                                    {"\n"} Si vos cancelás el turno, se le reembolsa el <strong>100%</strong> sin complicaciones.
+                                </> 
+                        }
+                    />
+                    <Card
+                        icon={<img src={MailIcon} className="icon-mail" alt="Notificaciones" />}
+                        title="Notificaciones automáticas para vos y tus clientes"
+                        description={"Te notificamos si se confirmó o canceló algún turno y enviamos recordatorios a tus clientes."}
+                    />
+                </div>
+                <div className="special-card-div">
+                    <SpecialCard
+                        image={specialCardImage}
+                        title="Cobra señas con Mercado Pago o PayPal"
+                        description={"Conectate con Mercado Pago o Paypal y cobrá señas para confirmar turnos de forma rápida y segura.\nTambién podés habilitar turnos sin encesidad de cobrar nada."}
+                        />
+                </div>
             </div>
         </div>
     );
-}
+};
 
 export default Benefits;
