@@ -1,5 +1,5 @@
 .special-card {
-    padding: 20px;
+    padding: 0.9rem;
     border: 1px solid #eee;
     border-radius: 10px;
     background-color: white;
@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .special-card-title {
@@ -27,6 +29,11 @@
 
 .special-card-image {
     width: auto;
-    height: 10rem;
+    height: 8rem;
     margin-bottom: 3rem;
+}
+
+.special-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }

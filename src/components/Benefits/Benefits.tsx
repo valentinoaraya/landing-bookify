@@ -34,14 +34,6 @@ const Benefits = () => {
                             description={"Te notificamos si se confirmó o canceló algún turno y enviamos recordatorios a tus clientes."}
                         />
                     </MotionEffect>
-
-                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.45}>
-                        <Card
-                            icon={<img src={refundUrlIcon} className="icon-reembolso" alt="Reembolso" />}
-                            title="Reembolsos automáticos para vos y tus clientes"
-                            description={"Si el cliente cancela con más de 24 h de anticipación, recibe el reembolso total. Con menos de 24 h, se devuelve el 50%. Si vos cancelás, siempre se reembolsa el 100% sin complicaciones."}
-                        />
-                    </MotionEffect>
                 </div>
 
                 <MotionEffect
@@ -62,6 +54,15 @@ const Benefits = () => {
                     </div>
                 </MotionEffect>
             </div>
+            <div className="bottom-card">
+                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.45}>
+                        <Card
+                            icon={<img src={refundUrlIcon} className="icon-reembolso" alt="Reembolso" />}
+                            title="Reembolsos automáticos para vos y tus clientes"
+                            description={"Si el cliente cancela con más de 24 h de anticipación, recibe el reembolso total. Con menos de 24 h, se devuelve el 50%. Si vos cancelás, siempre se reembolsa el 100% sin complicaciones."}
+                        />
+                    </MotionEffect>
+                </div>
         </div>
     );
 };

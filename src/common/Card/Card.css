@@ -6,6 +6,7 @@
     background-image: linear-gradient(to right, #1283a22a, #ffffff);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-icon-container {
@@ -31,4 +32,9 @@
 .card-icon {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
