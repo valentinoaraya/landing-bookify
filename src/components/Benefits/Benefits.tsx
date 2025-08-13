@@ -7,7 +7,7 @@ import refundUrlIcon from '../../assets/icons/refund.svg';
 import Adavantageicon from '../../assets/icons/advantage.svg';
 import MailIcon from '../../assets/icons/mail.svg';
 
-import MotionEffect from '../../components/animate-ui/effects/motion-effects'
+import MotionEffect from '../ui/motion-effects'
 import useIsMobile from '../../hooks/useIsMobile';
 
 const Benefits = () => {
@@ -15,7 +15,7 @@ const Benefits = () => {
 
     return (
         <div className="benefits">
-            <Title textAlign="right">¿Por qué elegir Bookify?</Title>
+            <Title textAlign="center">¿Por qué elegir Bookify?</Title>
 
             <div className="benefits-cards">
                 <div className="benefits-list">
@@ -38,7 +38,7 @@ const Benefits = () => {
                     <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.45}>
                         <Card
                             icon={<img src={refundUrlIcon} className="icon-reembolso" alt="Reembolso" />}
-                            title="Sistema de Rembolso Integrado"
+                            title="Reembolsos automáticos para vos y tus clientes"
                             description={"Si el cliente cancela con más de 24 h de anticipación, recibe el reembolso total. Con menos de 24 h, se devuelve el 50%. Si vos cancelás, siempre se reembolsa el 100% sin complicaciones."}
                         />
                     </MotionEffect>
@@ -54,9 +54,9 @@ const Benefits = () => {
                     <div className="special-card-div">
                         <SpecialCard
                             image={specialCardImage}
-                            title="Cobra señas con Mercado Pago o PayPal"
+                            title="Cobrales la seña antes del turno"
                             description={
-                                "Conectate con Mercado Pago o Paypal y cobrá señas para confirmar turnos de forma rápida y segura.\nTambién podés habilitar turnos sin encesidad de cobrar nada."
+                                "Conectate con Mercado Pago o Paypal, habilitando la posibilidad de cobrar señas para confirmar turnos de forma rápida y segura."
                             }
                         />
                     </div>

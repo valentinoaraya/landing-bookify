@@ -9,7 +9,7 @@ const Hero = () => {
             <Title
                 fontSize={window.innerWidth <= 600 ? "2rem" : "3rem"}
             >
-                Tu agenda online en segundos
+                Agendá, cobrales y notificá… <span className="underline">todo en un solo lugar</span>
             </Title>
             <p className="pHero">Configurá tus turnos, compartí un link con tus clientes y empezá a recibir reservas. Todo desde una sola plataforma.</p>
             <Button

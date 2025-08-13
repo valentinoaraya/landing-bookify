@@ -1,9 +1,9 @@
 .title {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 550;
     text-align: center;
-    width: 900px;
-    background: var(--azul-claro);
+    width: 100%;
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -14,4 +14,10 @@
     .title {
         width: 100%;
     }
+}
+
+.underline {
+    padding: 0.7rem 0.7rem;
+    background:  #1283a248;
+    border-radius: 15px;
 }
