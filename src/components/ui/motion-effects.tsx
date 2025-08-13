@@ -25,7 +25,7 @@ export const MotionEffect: React.FC<MotionEffectProps> = ({
   delay = 0,
   duration = 0.45,
   inView = true,
-  once = true,
+  once = false,
   className,
   style,
 }) => {
