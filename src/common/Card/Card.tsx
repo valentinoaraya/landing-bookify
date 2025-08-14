@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+
 interface CardProps {
     icon?: React.ReactNode;
     title: string;

@@ -1,5 +1,4 @@
 main {
-    max-width: 1400px;
     margin: 0;
 }
 
@@ -7,4 +6,10 @@ main {
     main {
         margin: 0;
     }
+}
+
+#benefits {
+    width: 100%;
+    padding: 12rem 0;
+    display: block;
 }

@@ -1,0 +1,42 @@
+.for-everyone-section {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.for-everyone-container {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.p-for-everyone {
+    color: rgb(45, 45, 45);
+}
+
+.down-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.for-everyone-points-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.work-items-image {
+    width: 35rem;
+    height: auto;
+}

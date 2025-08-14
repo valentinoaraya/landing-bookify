@@ -21,6 +21,7 @@ body {
   align-items: center;
   font-family: "Archivo", sans-serif;
   background-color: var(--gris);
+  width: 100%;
 }
 
 #benefits,

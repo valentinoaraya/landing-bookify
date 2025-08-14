@@ -36,7 +36,7 @@ const NavBar = () => {
                 </h1>
                 {
                     window.innerWidth >= 700 ?
-                        <ul>
+                        <ul className="ulNavBar">
                             <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("benefits")}>Beneficios</li>
                             <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("howItWorks")}>Cómo funciona</li>
                             <li className={scrolled ? "liNavBar scrolled" : "liNavBar"} onClick={() => handleScrollToSection("price")}>Precio</li>
