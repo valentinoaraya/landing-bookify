@@ -15,13 +15,15 @@ const Benefits = () => {
 
     return (
         <div className="benefits">
-            <Title textAlign="center">¿Por qué elegir Bookify?</Title>
+            <div className='titleDiv'>
+                <Title textAlign="center">¿Por qué elegir Bookify?</Title>
+            </div>
 
-            <div className="benefits-cards">
-                <div className="benefits-list">
+            <div className="benefitsCards">
+                <div className="benefitsList">
                     <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.35}>
                         <Card
-                            icon={<img src={Adavantageicon} className="icon-advantage" alt="Ventaja" />}
+                            icon={<img src={Adavantageicon} className="advantageIcon" alt="Ventaja" />}
                             title="Facil de Usar"
                             description="Gestioná los turnos de tus clientes con nuestra interfaz intuitiva. Fácil de usar y para vos y para ellos"
                         />
@@ -29,7 +31,7 @@ const Benefits = () => {
 
                     <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.55}>
                         <Card
-                            icon={<img src={MailIcon} className="icon-mail" alt="Notificaciones" />}
+                            icon={<img src={MailIcon} className="mailIcon" alt="Notificaciones" />}
                             title="Notificaciones automáticas para vos y tus clientes"
                             description={"Te notificamos si se confirmó o canceló algún turno y enviamos recordatorios a tus clientes."}
                         />
@@ -43,7 +45,7 @@ const Benefits = () => {
                     inView
                     delay={isMobile ? 0.4 : 0.6}
                 >
-                    <div className="special-card-div">
+                    <div className="specialCardDiv">
                         <SpecialCard
                             image={specialCardImage}
                             title="Cobrales la seña antes del turno"
@@ -54,10 +56,10 @@ const Benefits = () => {
                     </div>
                 </MotionEffect>
             </div>
-            <div className="bottom-card">
+            <div className="bottomCard">
                     <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.45}>
                         <Card
-                            icon={<img src={refundUrlIcon} className="icon-reembolso" alt="Reembolso" />}
+                            icon={<img src={refundUrlIcon} className="refundIcon" alt="Reembolso" />}
                             title="Reembolsos automáticos para vos y tus clientes"
                             description={"Si el cliente cancela con más de 24 h de anticipación, recibe el reembolso total. Con menos de 24 h, se devuelve el 50%. Si vos cancelás, siempre se reembolsa el 100% sin complicaciones."}
                         />

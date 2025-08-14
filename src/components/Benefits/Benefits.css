@@ -5,7 +5,12 @@
     align-items: center;
 }
 
-.benefits-cards {
+.titleDiv {
+    padding: 0.2rem;
+    border-bottom: 2px solid var(--azul-claro);
+}
+
+.benefitsCards {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,7 +20,7 @@
     height: 100%;
 }
 
-.benefits-list {
+.benefitsList {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,11 +29,11 @@
     height: 100%;
 }
 
-.special-card-div {
+.specialCardDiv {
     height: 100%;
 }
 
-.bottom-card {
+.bottomCard {
     display: flex;
     flex-direction: column;
     align-items: center;
