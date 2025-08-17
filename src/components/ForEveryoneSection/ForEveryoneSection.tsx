@@ -1,7 +1,7 @@
 import"./ForEveryoneSection.css"
 import Title from "../../common/Title/Title";
 import workItems from "../../assets/images/workItems.png"
-import ListItem from "../ListItem/listItem";
+import ListItem from "../ListItem/ListItem";
 
 const ForEveryoneSection = () => {
     return (

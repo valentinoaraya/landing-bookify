@@ -3,6 +3,11 @@
     justify-content: space-between;
     padding: 1rem 0;
     gap: 1rem;
+    width: 100%;
+}
+
+.footerContent {
+    width: 1400px;
 }
 
 .footerTitle {
