@@ -9,7 +9,7 @@ const DolarBlue = () => {
         fetch('https://dolarapi.com/v1/dolares/blue')
             .then((res) => res.json())
             .then((data) => {
-                setVenta(data.venta);
+                setVenta(data.venta * 12);
             })
             .catch((err) => {
                 console.error('Error al obtener cotización:', err);
