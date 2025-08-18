@@ -1,0 +1,79 @@
+
+.accordion {
+    padding: 0.3rem 1.5rem;
+    width: 40rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordionHeader {
+    color: white;
+}
+
+.accordionItem {
+    border-bottom: 1px solid #1282A2;
+}
+
+.accordionItem:last-child {
+    border-bottom: none;
+}
+
+.accordionTrigger {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-weight: 400;
+    text-align: left;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.97rem;
+    color: #374151;
+}
+
+.accordionTrigger[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+.accordionPanel {
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.accordionPanel[hidden] {
+    max-height: 0;
+    opacity: 0;
+}
+
+.accordionPanel:not([hidden]) {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.accordionPanelContent {
+    padding-bottom: 1rem;
+    padding-top: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #666;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.accordionPanelContent[hidden] {
+    max-height: 0;
+    opacity: 0;
+}
+
+.accordionPanelContent:not([hidden]) {
+    max-height: 500px;
+    opacity: 1;
+}
+
+svg {
+    color: var(--azul-claro);
+}

@@ -16,8 +16,15 @@
     }
 }
 
-.underline {
+.highlight {
     padding: 0.7rem 0.7rem;
-    background:  #1283a248;
+    background:  #1283a236;
     border-radius: 15px;
+}
+
+.new-color {
+    color: var(--azul-claro);
+    background: linear-gradient(to right, var(--azul-claro), var(--azul-claro));
+    background-clip: text;
+    -webkit-background-clip: text;
 }

@@ -1,0 +1,20 @@
+.supportSection{
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supportSectionContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.titleDiv {
+    padding: 0.2rem;
+    border-bottom: 2px solid var(--azul-claro);
+}

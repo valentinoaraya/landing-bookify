@@ -1,13 +1,12 @@
 .special-card {
-    padding: 20px;
-    border: 1px solid #eee;
+    padding: 0.9rem;
+    border: 1px solid var(--azul-claro);
     border-radius: 10px;
-    background-color: white;
-    background-image: linear-gradient(to left, #1283a22a, #ffffff);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--gris);
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .special-card-title {
@@ -27,6 +26,6 @@
 
 .special-card-image {
     width: auto;
-    height: 10rem;
+    height: 8rem;
     margin-bottom: 3rem;
 }
