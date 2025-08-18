@@ -5,6 +5,7 @@ import Benefits from './components/Benefits/Benefits'
 import ForEveryoneSection from './components/ForEveryoneSection/ForEveryoneSection'
 import Footer from './components/Footer/Footer'
 import SupportSection from './components/SupportSection/SupportSection'
+import Price from './components/Price/Price'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section className='for-everyone-section'>
         <ForEveryoneSection />
+      </section>
+      <section>
+        <Price />
       </section>
       <section>
         <SupportSection />
