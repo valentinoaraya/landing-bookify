@@ -27,7 +27,7 @@ const componentAccordion = () => {
             </AccordionItem>
             <AccordionItem className="accordionItem">
                 <AccordionTrigger className="accordionTrigger">¿Puedo ofrecer distintos precios o promociones?</AccordionTrigger>
-                <AccordionPanel className="accordionPanelContent">Sí, podés configurar precios por servicio y también aplicar descuentos o promociones.</AccordionPanel>
+                <AccordionPanel className="accordionPanelContent">Sí, podés configurar precios por servicio, teniendo una cantidad ilimitada para agregar.</AccordionPanel>
             </AccordionItem>
             <AccordionItem className="accordionItem">
                 <AccordionTrigger className="accordionTrigger">¿Cómo recibo el dinero de los pagos?</AccordionTrigger>

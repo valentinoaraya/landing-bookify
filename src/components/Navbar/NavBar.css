@@ -30,7 +30,7 @@
 }
 
 .navBarContainer.scrolled {
-    background-color: rgba(36, 103, 109, 0.436);
+    background-color: #1283a256;
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
