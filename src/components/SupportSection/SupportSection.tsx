@@ -1,13 +1,13 @@
-import Title from "../../common/Title/Title";
 import "./SupportSection.css";
 import Accordion from "../Accordion/Accordion"
 import { ContactForm } from "../ContactForm/ContactForm";
+import { WritingText } from "../ui/writing";
 
 const SupportSection = () => {
     return (
         <div className="supportSection">
             <div className="titleDiv">
-                <Title >Soporte y Preguntas Frecuentes</Title>
+                <WritingText text="Soporte y Preguntas Frecuentes" className="effectTitle" />
             </div>
 
             <div className="supportSectionContent">

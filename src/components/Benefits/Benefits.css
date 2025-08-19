@@ -4,6 +4,10 @@
     flex-direction: column;
     align-items: center;
 }
+.effectTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
 
 .titleDiv {
     padding: 0.2rem;

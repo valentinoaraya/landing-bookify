@@ -18,3 +18,8 @@
     padding: 0.2rem;
     border-bottom: 2px solid var(--azul-claro);
 }
+
+.effectTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+}

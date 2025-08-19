@@ -1,5 +1,4 @@
 import Card from '../../common/Card/Card';
-import Title from '../../common/Title/Title';
 import SpecialCard from '../../common/Card/SpecialCard/SpecialCard';
 import './Benefits.css';
 import specialCardImage from '../../assets/images/specialCardImage.png';
@@ -9,6 +8,7 @@ import MailIcon from '../../assets/icons/mail.svg';
 
 import MotionEffect from '../ui/motion-effects'
 import useIsMobile from '../../hooks/useIsMobile';
+import { WritingText } from '../ui/writing';
 
 const Benefits = () => {
     const isMobile = useIsMobile();
@@ -16,12 +16,13 @@ const Benefits = () => {
     return (
         <div className="benefits">
             <div className='titleDiv'>
-                <Title textAlign="center">¿Por qué elegir Bookify?</Title>
+                <WritingText text="¿Por qué elegir Bookify?" className="effectTitle"/>
             </div>
 
             <div className="benefitsCards">
                 <div className="benefitsList">
-                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.35}>
+                    
+                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.15}>
                         <Card
                             icon={<img src={Adavantageicon} className="advantageIcon" alt="Ventaja" />}
                             title="Facil de Usar"
@@ -29,7 +30,7 @@ const Benefits = () => {
                         />
                     </MotionEffect>
 
-                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.55}>
+                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.3}>
                         <Card
                             icon={<img src={MailIcon} className="mailIcon" alt="Notificaciones" />}
                             title="Notificaciones automáticas para vos y tus clientes"
@@ -57,7 +58,7 @@ const Benefits = () => {
                 </MotionEffect>
             </div>
             <div className="bottomCard">
-                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.45}>
+                    <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.30}>
                         <Card
                             icon={<img src={refundUrlIcon} className="refundIcon" alt="Reembolso" />}
                             title="Reembolsos automáticos para vos y tus clientes"
