@@ -33,6 +33,20 @@
     color: var(--azul-oscuro);
 }
 
+.aedesLink {
+    color: var(--azul-oscuro);
+    text-decoration: none;
+}
+
+.aedesLink:hover {
+    color: #e11d48;
+}
+
+.aedesIg {
+    color: var(--azul-oscuro);
+    text-decoration: none;
+}
+
 @media (max-width: 530px) {
     .footerContainer {
         flex-direction: column;
