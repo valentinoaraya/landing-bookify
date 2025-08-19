@@ -15,13 +15,13 @@ function App() {
       <section id="benefits">
         <Benefits />
       </section>
-      <section className='for-everyone-section'>
+      <section className='for-everyone-section' id="forEveryone">
         <ForEveryoneSection />
       </section>
-      <section>
+      <section id="price">
         <Price />
       </section>
-      <section>
+      <section id="support">
         <SupportSection />
       </section>
       <Footer />
