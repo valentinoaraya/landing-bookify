@@ -2,6 +2,7 @@ import "./Hero.css"
 import Title from "../../common/Title/Title";
 import Button from "../../common/Button/Button";
 import videoSchedulingAppointment from "../../assets/videos/pidiendo-turno-opt.mp4"
+import { MotionEffect } from "../ui/motion-effects";
 
 const Hero = () => {
     return (
@@ -18,12 +19,14 @@ const Hero = () => {
                 >
                     Comenzá Ahora
                 </Button>
-                <div className="heroImage">
-                    <video autoPlay loop muted playsInline width={"100%"}>
-                        <source src={videoSchedulingAppointment} type="video/mp4" />
-                        Tu navegador no soporta videos
-                    </video>
-                </div>
+                <MotionEffect slide={{ direction: 'up' }} fade zoom inView delay={0.025}>
+                    <div className="heroImage">
+                            <video autoPlay loop muted playsInline width={"100%"}>
+                                <source src={videoSchedulingAppointment} type="video/mp4" />
+                                Tu navegador no soporta videos
+                            </video>
+                    </div>
+                </MotionEffect>
         </div>
     );
 }
