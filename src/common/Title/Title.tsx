@@ -1,4 +1,4 @@
-import "./Title.css"
+import "./Title.css";
 
 interface Props {
     children: React.ReactNode;

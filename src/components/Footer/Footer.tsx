@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footerContainer">
             <div className="footerContent">
                 <h3 className="footerTitle">
-                    Bookify by Aedes
+                    Bookify by <a href="https://aedestech.vercel.app" target="_blank" rel="noopener noreferrer" className="aedesLink">Aedes</a>
                 </h3>
                 <p className="pFooter">© 2025 Bookify. Todos los derechos reservados.</p>
             </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                         height="20"
                         fill="var(--azul-oscuro)"
                     />
-                    <p>@aedes.tech</p>
+                    <a href="https://www.instagram.com/aedes.tech/" target="_blank" rel="noopener noreferrer" className="aedesIg">@aedes.tech</a>
                 </div>
             </div>
         </footer>

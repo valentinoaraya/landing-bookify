@@ -21,10 +21,10 @@ function WritingText({
     ref,
     inView = true,
     inViewMargin = '0px',
-    inViewOnce = true,
-    spacing = 10,
+    inViewOnce = false,
+    spacing = 5,
     text,
-    transition = { type: 'spring', bounce: 0, duration: 0.9, delay: 0.25 },
+    transition = { type: 'spring', bounce: 0, duration: 1, delay: 0.25 },
     ...props
 }: WritingTextProps) {
     const localRef = React.useRef<HTMLSpanElement>(null);
