@@ -2,7 +2,7 @@ import"./ForEveryoneSection.css"
 import Title from "../../common/Title/Title";
 import workItems from "../../assets/images/workItems.png"
 import ListItem from "../ListItem/ListItem";
-import { MotionEffect } from "../ui/motion-effects";
+import { MotionEffect } from "../ui/motionEffects";
 
 const ForEveryoneSection = () => {
     return (
