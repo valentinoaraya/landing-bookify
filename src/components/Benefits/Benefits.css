@@ -44,7 +44,82 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 98.8%;
     margin-top: 1.5rem;
+}
+
+/* Tablet Media Query - Mantiene layout horizontal pero más pequeño */
+@media (max-width: 1024px) {
+    .benefitsCards {
+        width: 100%;
+        max-width: 900px;
+        margin-top: 6rem;
+        gap: 30px;
+    }
+
+    .bottomCard {
+        width: 98.8%;
+        max-width: 900px;
+    }
+
+    .effectTitle {
+        font-size: 2.2rem;
+    }
+
+    .benefitsList {
+        gap: 25px;
+    }
+}
+
+/* Mobile Media Query - Cambia a columna */
+@media (max-width: 768px) {
+    .benefitsCards {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 4rem;
+        gap: 20px;
+    }
+
+    .bottomCard {
+        width: 98.8%;
+    }
+
+    .benefitsList {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .specialCardDiv {
+        width: 100%;
+        order: -1; /* Mover la tarjeta especial arriba en móvil */
+    }
+
+    .effectTitle {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .titleDiv {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .benefitsCards {
+        margin-top: 3rem;
+        gap: 15px;
+    }
+
+    .bottomCard {
+        width: 98.8%;
+    }
+
+    .benefitsList {
+        gap: 15px;
+    }
+
+    .effectTitle {
+        font-size: 1.8rem;
+    }
 }
 

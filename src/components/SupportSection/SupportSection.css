@@ -23,3 +23,56 @@
     font-size: 2.5rem;
     font-weight: 600;
 }
+
+/* Tablet Media Query */
+@media (max-width: 1024px) {
+    .supportSection {
+        padding: 5rem 0;
+    }
+
+    .supportSectionContent {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 6rem;
+    }
+
+    .effectTitle {
+        font-size: 2.2rem;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+    .supportSection {
+        padding: 3rem 0;
+    }
+
+    .supportSectionContent {
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+
+    .effectTitle {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .titleDiv {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .supportSection {
+        padding: 2rem 0;
+    }
+
+    .supportSectionContent {
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .effectTitle {
+        font-size: 1.8rem;
+    }
+}

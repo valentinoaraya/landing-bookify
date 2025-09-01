@@ -6,6 +6,10 @@
     margin: 14rem 0 2rem 0;
 }
 
+.heroContainer .title {
+    font-size: 2.5rem;
+}
+
 .pHero {
     font-size: 1.2rem;
     font-weight: 400;
@@ -29,12 +33,91 @@
     }
 }
 
-@media (max-width: 600px) {
+/* Tablet Media Query */
+@media (max-width: 1024px) {
     .heroContainer {
-        height: 80vh;
+        margin: 12rem 0 2rem 0;
+    }
+
+    .heroContainer .title {
+        font-size: 2.2rem;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 800px;
+        margin-top: 5rem;
+    }
+
+    .pHero {
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+    .heroContainer {
+        margin: 10rem 0 2rem 0;
+    }
+
+    .heroContainer .title {
+        font-size: 1.8rem;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 3rem;
+        padding: 0.5rem;
     }
 
     .pHero {
         font-size: 1rem;
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .heroContainer {
+        height: 90vh;
+        margin: 8rem 0 1rem 0;
+    }
+
+    .heroContainer .title {
+        font-size: 1.6rem;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 2rem;
+    }
+
+    .pHero {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .heroContainer {
+        margin: 6rem 0 1rem 0;
+    }
+
+    .heroContainer .title {
+        font-size: 1.4rem;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 1.5rem;
+    }
+
+    .pHero {
+        font-size: 0.85rem;
+        padding: 0 0.25rem;
     }
 }

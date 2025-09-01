@@ -112,9 +112,45 @@
     margin: 2rem;
 }
 
+/* Tablet Media Query */
+@media (max-width: 1024px) {
+    .navBarContainer {
+        margin: 1rem 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .titleNavBar {
+        font-size: 2.2rem;
+    }
+
+    .ulNavBar {
+        gap: 0.8rem;
+    }
+
+    .liNavBar {
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 1300px) {
     .navBarContainer {
         margin: 1rem;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+    .navBarContainer {
+        margin: 1rem 1rem;
+        padding: 1rem;
+    }
+
+    .titleNavBar {
+        font-size: 2rem;
+    }
+
+    .sideBar {
+        width: 70%;
     }
 }
 
@@ -127,5 +163,14 @@
 @media (max-width: 500px) {
     .navBarContainer {
         padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .titleNavBar {
+        font-size: 1.8rem;
+    }
+
+    .sideBar {
+        width: 80%;
     }
 }

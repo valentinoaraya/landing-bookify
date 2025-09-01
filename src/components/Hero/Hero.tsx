@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="heroContainer">
 
-                <Title fontSize={window.innerWidth <= 600 ? "2rem" : "3rem"}>
+                <Title>
                     Agendá, cobrales y notificá… <span className="highlight">todo en un solo lugar</span>
                 </Title>
 
