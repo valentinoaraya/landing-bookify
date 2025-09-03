@@ -1,9 +1,10 @@
 .card {
-    padding: 10px;
+    padding: 0.5rem 0;
     border: 1px solid var(--azul-claro);
     border-radius: 10px;
     background-color: var(--gris);
-    width: 98.8%;
+    align-items: center;
+    width: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -26,16 +27,18 @@
     color: #333;
     line-height: 1.5;
     white-space: pre-line;
+    margin: 0 0.9rem;
 }
 
 .cardIcon {
     width: 2.5rem;
     height: 2.5rem;
+    margin-left: 0.9rem;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(5, 113, 104, 0.27);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(26, 79, 67, 0.151);
 }
 
 /* Tablet Media Query */

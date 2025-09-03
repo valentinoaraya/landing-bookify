@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .effectTitle {
@@ -11,7 +10,9 @@
 }
 
 .titleDiv {
-    padding: 0.2rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.2rem 0;
     border-bottom: 2px solid var(--azul-claro);
 }
 
@@ -19,7 +20,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 2rem;
     margin-top: 10rem;
     width: 1400px;
     height: 100%;
@@ -44,7 +45,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 98.8%;
+    width: 100%;
     margin-top: 1.5rem;
 }
 
@@ -58,7 +59,7 @@
     }
 
     .bottomCard {
-        width: 98.8%;
+        width: 100%;
         max-width: 900px;
     }
 
@@ -111,7 +112,7 @@
     }
 
     .bottomCard {
-        width: 98.8%;
+        width: 100%;
     }
 
     .benefitsList {

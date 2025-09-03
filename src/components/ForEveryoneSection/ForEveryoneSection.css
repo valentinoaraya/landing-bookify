@@ -13,14 +13,17 @@
 
 .upperContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 
 .pForEveryone {
-    font-size: larger;
+    font-size: 1.5rem;
     color: #374151;
+    font-weight: 250;
 }
 
 .downContainer {
@@ -34,7 +37,7 @@
 .forEveryonePointsContainer {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 53%;
 }
 
 .workItemsImage {

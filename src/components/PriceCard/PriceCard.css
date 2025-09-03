@@ -5,10 +5,9 @@
     background: #fff;
     border: 2px solid #eee;
     border-radius: 12px;
-    padding: 1.6rem 0rem;
+    padding: 3rem;
     text-align: center;
     box-shadow: 0 8px 20px rgba(33, 102, 96, 0.558);
-    width: 50rem;
     height: 100%;
     margin: 1rem;
 }
