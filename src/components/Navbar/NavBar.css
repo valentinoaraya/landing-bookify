@@ -139,9 +139,9 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
     .navBarContainer {
-        margin: 1rem;
+        margin: 1rem 5rem;
     }
 }
 

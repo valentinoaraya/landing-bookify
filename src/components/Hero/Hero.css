@@ -33,6 +33,7 @@
     }
 }
 
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
     .heroContainer {
@@ -52,6 +53,21 @@
     .pHero {
         font-size: 1.1rem;
         margin: 1.5rem 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .heroContainer .title {
+        font-size: 2.3rem;
+    }
+
+    .heroImage {
+        width: 1200px;
+        margin-top: 5.5rem;
+    }
+
+    .pHero {
+        font-size: 1.15rem;
     }
 }
 

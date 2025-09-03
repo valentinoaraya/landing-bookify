@@ -9,6 +9,8 @@
     font-weight: 600;
 }
 
+
+
 .titleDiv {
     display: inline-block;
     margin: 0 auto;
@@ -47,6 +49,28 @@
     justify-content: center;
     width: 100%;
     margin-top: 1.5rem;
+}
+
+@media (max-width: 1500px) {
+    .benefitsCards {
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 6rem;
+        gap: 30px;
+    }
+
+    .bottomCard {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .effectTitle {
+        font-size: 2.2rem;
+    }
+
+    .benefitsList {
+        gap: 25px;
+    }
 }
 
 /* Tablet Media Query - Mantiene layout horizontal pero más pequeño */

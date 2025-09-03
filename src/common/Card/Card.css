@@ -41,6 +41,25 @@
     box-shadow: 0 10px 20px rgba(26, 79, 67, 0.151);
 }
 
+@media (max-width: 1500px) {
+    .card {
+        padding: 0.5rem 0;
+    }
+
+    .cardTitle {
+        font-size: 1.45rem;
+    }
+
+    .cardDescription {
+        font-size: 1.15rem;
+    }
+
+    .cardIcon {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
     .cardTitle {

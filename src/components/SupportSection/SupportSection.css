@@ -24,6 +24,23 @@
     font-weight: 600;
 }
 
+@media (max-width: 1500px) {
+    .supportSection {
+        padding: 6rem 0;
+    }
+
+    .supportSectionContent {
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 8rem;
+        gap: 2rem;
+    }
+
+    .effectTitle {
+        font-size: 2.3rem;
+    }
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
     .supportSection {

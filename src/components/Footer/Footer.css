@@ -19,6 +19,12 @@
     margin-bottom: 1rem;
 }
 
+@media (max-width: 1500px) {
+    .footerContent {
+        width: 1200px;
+    }
+}
+
 .pFooter {
     color: var(--azul-oscuro);
 }

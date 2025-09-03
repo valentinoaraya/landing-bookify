@@ -36,6 +36,27 @@
     box-shadow: 0 10px 20px rgba(26, 79, 67, 0.151);
 }
 
+@media (max-width: 1500px) {
+    .specialCard {
+        padding: 0.85rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .specialCardTitle {
+        font-size: 1.4rem;
+    }
+
+    .specialCardDescription {
+        font-size: 1.1rem;
+    }
+
+    .specialCardImage {
+        height: 7rem;
+        max-width: 100%;
+    }
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
     .specialCardTitle {

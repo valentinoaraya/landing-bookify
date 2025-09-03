@@ -52,3 +52,26 @@
     color: var(--azul-claro);
     margin-right: 0.5rem;
 }
+
+@media (max-width: 1500px) {
+    .priceCard {
+        padding: 2.4rem;
+    }
+
+    .priceCardTitle {
+        font-size: 2.3rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .priceCardPrice {
+        font-size: 2.7rem;
+    }
+
+    .priceCardFeatures {
+        margin-bottom: 4rem;
+    }
+
+    .priceCardFeatures li {
+        font-size: 1.1rem;
+    }
+}

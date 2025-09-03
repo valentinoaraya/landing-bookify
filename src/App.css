@@ -22,6 +22,21 @@ main {
     }
 }
 
+@media (max-width: 1500px) {
+    main {
+        margin: 0 1.5rem;
+        max-width: 1200px;
+    }
+
+    #benefits {
+        width: 100%;
+    }
+
+    .forEveryoneSection {
+        padding: 6rem 0;
+    }
+}
+
 /* Mobile Media Query */
 @media (max-width: 768px) {
     main {
