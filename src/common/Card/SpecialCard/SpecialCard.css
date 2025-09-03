@@ -1,4 +1,4 @@
-.special-card {
+.specialCard {
     padding: 0.9rem;
     border: 1px solid var(--azul-claro);
     border-radius: 10px;
@@ -10,7 +10,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.special-card-title {
+.specialCardTitle {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -18,36 +18,36 @@
     text-align: left;
 }
 
-.special-card-description {
+.specialCardDescription {
     font-size: 1.2rem;
     color: #333;
     line-height: 1.5;
     white-space: pre-line;
 }
 
-.special-card-image {
+.specialCardImage {
     width: auto;
     height: 8rem;
     margin-bottom: 3rem;
 }
 
-.special-card:hover {
+.specialCard:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(5, 113, 104, 0.27)
 }
 
 /* Tablet Media Query */
 @media (max-width: 1024px) {
-    .special-card-title {
+    .specialCardTitle {
         font-size: 1.4rem;
         margin-bottom: 18px;
     }
 
-    .special-card-description {
+    .specialCardDescription {
         font-size: 1.1rem;
     }
 
-    .special-card-image {
+    .specialCardImage {
         height: 7rem;
         margin-bottom: 2.5rem;
     }
@@ -55,42 +55,42 @@
 
 /* Mobile Media Query */
 @media (max-width: 768px) {
-    .special-card {
+    .specialCard {
         padding: 0.7rem;
     }
 
-    .special-card-title {
+    .specialCardTitle {
         font-size: 1.3rem;
         margin-bottom: 15px;
         text-align: center;
     }
 
-    .special-card-description {
+    .specialCardDescription {
         font-size: 1rem;
         text-align: center;
     }
 
-    .special-card-image {
+    .specialCardImage {
         height: 6rem;
         margin-bottom: 2rem;
     }
 }
 
 @media (max-width: 500px) {
-    .special-card {
+    .specialCard {
         padding: 0.5rem;
     }
 
-    .special-card-title {
+    .specialCardTitle {
         font-size: 1.2rem;
         margin-bottom: 12px;
     }
 
-    .special-card-description {
+    .specialCardDescription {
         font-size: 0.9rem;
     }
 
-    .special-card-image {
+    .specialCardImage {
         height: 5rem;
         margin-bottom: 1.5rem;
     }

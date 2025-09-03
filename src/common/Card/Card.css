@@ -7,7 +7,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-icon-container {
+.cardIconContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,20 +15,20 @@
     margin-bottom: 20px;
 }
 
-.card-title {
+.cardTitle {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "Archivo", sans-serif;
 }
 
-.card-description {
+.cardDescription {
     font-size: 1.2rem;
     color: #333;
     line-height: 1.5;
     white-space: pre-line;
 }
 
-.card-icon {
+.cardIcon {
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -40,15 +40,15 @@
 
 /* Tablet Media Query */
 @media (max-width: 1024px) {
-    .card-title {
+    .cardTitle {
         font-size: 1.4rem;
     }
 
-    .card-description {
+    .cardDescription {
         font-size: 1.1rem;
     }
 
-    .card-icon {
+    .cardIcon {
         width: 2.2rem;
         height: 2.2rem;
     }
@@ -60,20 +60,20 @@
         padding: 8px;
     }
 
-    .card-title {
+    .cardTitle {
         font-size: 1.3rem;
     }
 
-    .card-description {
+    .cardDescription {
         font-size: 1rem;
     }
 
-    .card-icon {
+    .cardIcon {
         width: 2rem;
         height: 2rem;
     }
 
-    .card-icon-container {
+    .cardIconContainer {
         gap: 1.2rem;
         margin-bottom: 15px;
     }
@@ -84,20 +84,20 @@
         padding: 6px;
     }
 
-    .card-title {
+    .cardTitle {
         font-size: 1.2rem;
     }
 
-    .card-description {
+    .cardDescription {
         font-size: 0.9rem;
     }
 
-    .card-icon {
+    .cardIcon {
         width: 1.8rem;
         height: 1.8rem;
     }
 
-    .card-icon-container {
+    .cardIconContainer {
         gap: 1rem;
         margin-bottom: 12px;
     }

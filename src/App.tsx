@@ -15,7 +15,7 @@ function App() {
       <section id="benefits">
         <Benefits />
       </section>
-      <section className='for-everyone-section' id="forEveryone">
+      <section className='forEveryoneSection' id="forEveryone">
         <ForEveryoneSection />
       </section>
       <section id="price">

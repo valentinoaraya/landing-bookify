@@ -1,29 +1,29 @@
-.for-everyone-section {
+.forEveryoneSection {
     padding: 7rem 0;
     display: flex;
     justify-content: center;
 }
 
-.for-everyone-container {
+.forEveryoneContainer {
     width: 1400px;
     display: flex;
     flex-direction: column;
     gap: 7rem;
 }
 
-.upper-container {
+.upperContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.p-for-everyone {
+.pForEveryone {
     font-size: larger;
     color: #374151;
 }
 
-.down-container {
+.downContainer {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -31,93 +31,93 @@
 
 }
 
-.for-everyone-points-container {
+.forEveryonePointsContainer {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
-.work-items-image {
+.workItemsImage {
     width: 35rem;
     height: auto;
 }
 
 /* Tablet Media Query - Mantiene layout horizontal pero más pequeño */
 @media (max-width: 1024px) {
-    .for-everyone-container {
+    .forEveryoneContainer {
         width: 100%;
         max-width: 900px;
         gap: 5rem;
     }
 
-    .upper-container {
+    .upperContainer {
         gap: 2rem;
     }
 
-    .down-container {
+    .downContainer {
         gap: 2rem;
     }
 
-    .for-everyone-points-container {
+    .forEveryonePointsContainer {
         width: 60%;
     }
 
-    .work-items-image {
+    .workItemsImage {
         width: 30rem;
     }
 }
 
 /* Mobile Media Query - Cambia a columna */
 @media (max-width: 768px) {
-    .for-everyone-container {
+    .forEveryoneContainer {
         gap: 3rem;
     }
 
-    .upper-container {
+    .upperContainer {
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;
     }
 
-    .down-container {
+    .downContainer {
         flex-direction: column;
         gap: 2rem;
     }
 
-    .for-everyone-points-container {
+    .forEveryonePointsContainer {
         width: 100%;
     }
 
-    .work-items-image {
+    .workItemsImage {
         width: 100%;
         max-width: 400px;
     }
 
-    .p-for-everyone {
+    .pForEveryone {
         font-size: 1rem;
         padding: 0 1rem;
     }
 }
 
 @media (max-width: 500px) {
-    .for-everyone-container {
+    .forEveryoneContainer {
         gap: 2rem;
     }
 
-    .upper-container {
+    .upperContainer {
         gap: 1rem;
     }
 
-    .down-container {
+    .downContainer {
         gap: 1.5rem;
     }
 
-    .work-items-image {
+    .workItemsImage {
         width: 100%;
         max-width: 300px;
     }
 
-    .p-for-everyone {
+    .pForEveryone {
         font-size: 0.9rem;
         padding: 0 0.5rem;
     }

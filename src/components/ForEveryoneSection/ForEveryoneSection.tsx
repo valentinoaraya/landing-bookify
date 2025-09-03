@@ -6,21 +6,21 @@ import { MotionEffect } from "../ui/motionEffects";
 
 const ForEveryoneSection = () => {
     return (
-        <div className="for-everyone-container">
+        <div className="forEveryoneContainer">
             <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.15}>
-                <div className="upper-container">
+                <div className="upperContainer">
                     <Title fontSize={window.innerWidth <= 600 ? "2rem" : "3rem"} textAlign="left">
-                        Un sistema hecho para <span className="new-color">todos</span>. <br /> Sin importar el <span className="new-color">rubro</span> ni el <span className="new-color">tamaño</span>.
+                        Un sistema hecho para <span className="newColor">todos</span>. <br /> Sin importar el <span className="newColor">rubro</span> ni el <span className="newColor">tamaño</span>.
                     </Title>
 
-                    <p className="p-for-everyone">
+                    <p className="pForEveryone">
                         Bookify se adapta a vos, no al revés. <br /> Desde un profesional independiente hasta una empresa con múltiples sucursales, nuestro sistema crece con tu negocio. <br /> No necesitás conocimientos técnicos ni configuración avanzada: empezás y ya podés tomar reservas.
                     </p>
                 </div>
             </MotionEffect>
             <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.15}>
-                <div className="down-container">
-                    <div className="for-everyone-points-container">
+                <div className="downContainer">
+                    <div className="forEveryonePointsContainer">
                         <ListItem width={90}>
                             Sin curva de aprendizaje: interfaz simple, pensada para cualquier persona.
                         </ListItem>
@@ -34,7 +34,7 @@ const ForEveryoneSection = () => {
                             Accesible desde cualquier dispositivo.
                         </ListItem>
                     </div>
-                    <img src={workItems} alt="image" className="work-items-image"/>
+                    <img src={workItems} alt="image" className="workItemsImage"/>
                 </div>
             </MotionEffect>
         </div>
