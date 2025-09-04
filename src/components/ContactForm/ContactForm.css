@@ -36,12 +36,6 @@
     gap: 1rem;
 }
 
-@media (max-width: 640px) {
-    .formRow {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-}
 
 .inputGroup {
     display: flex;
@@ -131,4 +125,17 @@
     background-color: #9ca3af;
     transform: none;
     box-shadow: none;
+}
+
+@media (max-widht: 1500px) {
+    .contactContainer {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 640px) {
+    .formRow {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }

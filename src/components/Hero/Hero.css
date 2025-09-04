@@ -75,15 +75,17 @@
 @media (max-width: 768px) {
     .heroContainer {
         margin: 10rem 0 2rem 0;
+        max-width: 700px;
     }
 
     .heroContainer .title {
         font-size: 1.8rem;
+        text-align: center;
     }
 
     .heroImage {
         width: 100%;
-        max-width: 600px;
+        max-width: 610px;
         margin-top: 3rem;
         padding: 0.5rem;
     }
@@ -92,6 +94,7 @@
         font-size: 1rem;
         margin: 1rem 0;
         padding: 0 1rem;
+        text-align: center;
     }
 }
 

@@ -77,3 +77,16 @@
 svg {
     color: var(--azul-claro);
 }
+
+@media (max-width: 1500px) {
+
+    .accordion {
+        width: 610px
+    }
+}
+
+@media (max-widht: 768px) {
+    .accordion {
+        width: 520px;
+    }
+}

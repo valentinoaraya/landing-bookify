@@ -98,24 +98,27 @@
 
 /* Mobile Media Query - Cambia a columna */
 @media (max-width: 768px) {
+    .benefits {
+        align-items: center;
+    }
     .benefitsCards {
-        width: 100%;
+        width: 610px;
         flex-direction: column;
         margin-top: 4rem;
         gap: 20px;
     }
 
     .bottomCard {
-        width: 98.8%;
+        width: 610px;
     }
 
     .benefitsList {
-        width: 100%;
+        width: 610px;
         gap: 20px;
     }
 
     .specialCardDiv {
-        width: 100%;
+        width: 610px;
         order: -1; /* Mover la tarjeta especial arriba en móvil */
     }
 

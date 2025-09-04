@@ -88,13 +88,18 @@
 /* Mobile Media Query - Cambia a columna */
 @media (max-width: 768px) {
     .forEveryoneContainer {
-        gap: 3rem;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
     }
 
     .upperContainer {
         flex-direction: column;
         text-align: center;
-        gap: 1.5rem;
+        gap: 2rem;
     }
 
     .downContainer {
@@ -103,7 +108,7 @@
     }
 
     .forEveryonePointsContainer {
-        width: 100%;
+        width: 70%;
     }
 
     .workItemsImage {
@@ -114,6 +119,7 @@
     .pForEveryone {
         font-size: 1rem;
         padding: 0 1rem;
+        text-align: center;
     }
 }
 
@@ -138,5 +144,6 @@
     .pForEveryone {
         font-size: 0.9rem;
         padding: 0 0.5rem;
+        text-align: center;
     }
 }

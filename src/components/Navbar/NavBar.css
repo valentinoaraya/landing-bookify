@@ -112,6 +112,12 @@
     margin: 2rem;
 }
 
+@media (max-width: 1500px) {
+    .navBarContainer {
+        margin: 1rem 5rem;
+    }
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
 
@@ -139,11 +145,6 @@
     }
 }
 
-@media (max-width: 1500px) {
-    .navBarContainer {
-        margin: 1rem 5rem;
-    }
-}
 
 /* Mobile Media Query */
 @media (max-width: 768px) {
