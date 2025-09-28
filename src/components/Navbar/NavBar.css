@@ -112,6 +112,7 @@
     margin: 2rem;
 }
 
+/* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .navBarContainer {
         margin: 1rem 5rem;
@@ -119,7 +120,7 @@
 }
 
 /* Tablet Media Query */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
 
     .navBar {
         display: flex;
@@ -146,15 +147,15 @@
 }
 
 
-/* Mobile Media Query */
-@media (max-width: 768px) {
+/* Tablet Media Query */
+@media (max-width: 1012px) {
     .navBarContainer {
-        margin: 1rem 1rem;
-        padding: 1rem;
+        margin: 0.8rem 1rem;
+        padding: 0.8rem;
     }
 
     .titleNavBar {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sideBar {
@@ -162,20 +163,15 @@
     }
 }
 
-@media (max-width: 700px) {
-    .titleNavBar {
-        font-size: 2rem;
-    }
-}
-
+/* Mobile Media Query */
 @media (max-width: 500px) {
     .navBarContainer {
-        padding: 1rem;
-        margin: 0.5rem;
+        padding: 0.8rem;
+        margin: 0.4rem;
     }
 
     .titleNavBar {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .sideBar {

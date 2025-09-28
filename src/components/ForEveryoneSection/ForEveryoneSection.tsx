@@ -9,7 +9,7 @@ const ForEveryoneSection = () => {
         <div className="forEveryoneContainer">
             <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.15}>
                 <div className="upperContainer">
-                    <Title fontSize={window.innerWidth <= 600 ? "2rem" : "3rem"} textAlign="left">
+                    <Title fontSize={window.innerWidth <= 500 ? "2rem" : "3rem"} textAlign="left">
                         Un sistema hecho para <span className="newColor">todos</span>. <br /> Sin importar el <span className="newColor">rubro</span> ni el <span className="newColor">tamaño</span>.
                     </Title>
 

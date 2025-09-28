@@ -6,7 +6,7 @@
 }
 
 /* Tablet Media Query */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
     .priceCardDiv {
         margin-top: 4rem;
         padding: 0 2rem;

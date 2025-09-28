@@ -46,7 +46,7 @@
 }
 
 /* Tablet Media Query - Mantiene layout horizontal pero más pequeño */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
     .forEveryoneContainer {
         width: 100%;
         max-width: 900px;
@@ -70,6 +70,7 @@
     }
 }
 
+/* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .forEveryoneContainer {
         width: 1200px;
@@ -77,18 +78,18 @@
     }
 
     .pForEveryone {
-        font-size: 1.05rem;
+        font-size: 1.1rem;
     }
 
     .workItemsImage {
-        width: 30rem;
+        width: 32rem;
     }
 }
 
-/* Mobile Media Query - Cambia a columna */
-@media (max-width: 768px) {
+/* Tablet Media Query - Cambia a columna */
+@media (max-width: 1012px) {
     .forEveryoneContainer {
-        gap: 5rem;
+        gap: 3rem;
         align-items: center;
     }
 
@@ -99,50 +100,51 @@
     .upperContainer {
         flex-direction: column;
         text-align: center;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .downContainer {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .forEveryonePointsContainer {
-        width: 70%;
+        width: 80%;
     }
 
     .workItemsImage {
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .pForEveryone {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 0 1rem;
         text-align: center;
     }
 }
 
+/* Mobile Media Query */
 @media (max-width: 500px) {
     .forEveryoneContainer {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .upperContainer {
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .downContainer {
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .workItemsImage {
         width: 100%;
-        max-width: 300px;
+        max-width: 250px;
     }
 
     .pForEveryone {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         padding: 0 0.5rem;
         text-align: center;
     }

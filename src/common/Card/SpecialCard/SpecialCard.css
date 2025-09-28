@@ -36,6 +36,7 @@
     box-shadow: 0 10px 20px rgba(26, 79, 67, 0.151);
 }
 
+/* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .specialCard {
         padding: 0.85rem;
@@ -58,7 +59,7 @@
 }
 
 /* Tablet Media Query */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
     .specialCardTitle {
         font-size: 1.4rem;
         margin-bottom: 18px;
@@ -75,7 +76,7 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 768px) {
+@media (max-width: 1012px) {
     .specialCard {
         padding: 0.7rem;
     }
@@ -97,6 +98,7 @@
     }
 }
 
+/* Mobile Media Query */
 @media (max-width: 500px) {
     .specialCard {
         padding: 0.5rem;

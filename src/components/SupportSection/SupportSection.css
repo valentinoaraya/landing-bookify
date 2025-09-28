@@ -24,6 +24,7 @@
     font-weight: 600;
 }
 
+/* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .supportSection {
         padding: 6rem 0;
@@ -42,7 +43,7 @@
 }
 
 /* Tablet Media Query */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
     .supportSection {
         padding: 5rem 0;
     }
@@ -59,7 +60,7 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 768px) {
+@media (max-width: 1012px) {
     .supportSection {
         padding: 3rem 0;
     }

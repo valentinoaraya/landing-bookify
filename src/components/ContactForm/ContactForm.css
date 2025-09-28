@@ -127,7 +127,8 @@
     box-shadow: none;
 }
 
-@media (max-widht: 1500px) {
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
     .contactContainer {
         max-width: 500px;
     }

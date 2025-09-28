@@ -4,7 +4,7 @@ main {
 }
 
 /* Tablet Media Query */
-@media (max-width: 1024px) {
+@media (max-width: 1265px) {
     main {
         margin: 0;
         max-width: 850px;
@@ -22,6 +22,7 @@ main {
     }
 }
 
+/* Desktop Large Media Query */
 @media (max-width: 1500px) {
     main {
         margin: 0 1.5rem;
@@ -38,7 +39,7 @@ main {
 }
 
 /* Mobile Media Query */
-@media (max-width: 768px) {
+@media (max-width: 1012px) {
     main {
         margin: 0;
         max-width: 100%;
