@@ -3,7 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 14rem 0 2rem 0;
+    margin: 14rem auto 2rem auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.heroContainer .title {
+    font-size: 2.5rem;
 }
 
 .pHero {
@@ -29,12 +36,91 @@
     }
 }
 
-@media (max-width: 600px) {
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
+    .heroImage {
+        width: 100%;
+        max-width: 900px;
+        margin: 5rem auto 0 auto;
+    }
+}
+/* Tablet Media Query */
+@media (max-width: 1265px) {
     .heroContainer {
-        height: 80vh;
+        margin: 12rem auto 2rem auto;
+        max-width: 900px;
+        padding: 0 1.5rem;
+    }
+
+    .heroContainer .title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 800px;
+        margin: 5rem auto 0 auto;
     }
 
     .pHero {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+}
+
+/* Tablet Media Query */
+@media (max-width: 1012px) {
+    .heroContainer {
+        margin: 8rem auto 2rem auto;
+        max-width: 600px;
+        padding: 0 1rem;
+    }
+
+    .heroContainer .title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 500px;
+        margin: 2.5rem auto 0 auto;
+        padding: 0.5rem;
+    }
+
+    .pHero {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px) {
+    .heroContainer {
+        margin: 5rem auto 1rem auto;
+        max-width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .heroContainer .title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .heroImage {
+        width: 100%;
+        max-width: 300px;
+        margin: 1.2rem auto 0 auto;
+        padding: 0.25rem;
+    }
+
+    .pHero {
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+        text-align: center;
     }
 }

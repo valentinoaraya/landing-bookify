@@ -30,7 +30,7 @@
 }
 
 .navBarContainer.scrolled {
-    background-color: #1283a256;
+    background-color: #1283a2b2;
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
@@ -112,20 +112,69 @@
     margin: 2rem;
 }
 
-@media (max-width: 1300px) {
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
     .navBarContainer {
-        margin: 1rem;
+        margin: 1rem 5rem;
     }
 }
 
-@media (max-width: 700px) {
+/* Tablet Media Query */
+@media (max-width: 1265px) {
+
+    .navBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navBarContainer {
+        margin: 1rem 2rem;
+        padding: 1rem 1.5rem;
+        width: 800px;
+    }
+
     .titleNavBar {
-        font-size: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .ulNavBar {
+        gap: 0.8rem;
+    }
+
+    .liNavBar {
+        font-size: 0.9rem;
     }
 }
 
+
+/* Tablet Media Query */
+@media (max-width: 1012px) {
+    .navBarContainer {
+        margin: 0.8rem 1rem;
+        padding: 0.8rem;
+    }
+
+    .titleNavBar {
+        font-size: 1.8rem;
+    }
+
+    .sideBar {
+        width: 70%;
+    }
+}
+
+/* Mobile Media Query */
 @media (max-width: 500px) {
     .navBarContainer {
-        padding: 1rem;
+        padding: 0.8rem;
+        margin: 0.4rem;
+    }
+
+    .titleNavBar {
+        font-size: 1.6rem;
+    }
+
+    .sideBar {
+        width: 80%;
     }
 }

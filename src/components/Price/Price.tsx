@@ -1,5 +1,5 @@
 import PriceCard from "../PriceCard/PriceCard";
-import { MotionEffect } from "../ui/motion-effects";
+import { MotionEffect } from "../ui/motionEffects";
 import "./Price.css";
 
 const Price = () => {

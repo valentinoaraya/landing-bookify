@@ -77,3 +77,24 @@
 svg {
     color: var(--azul-claro);
 }
+
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
+    .accordion {
+        width: 610px;
+    }
+}
+
+@media (max-width: 1012px) {
+    .accordion {
+        width: 520px;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px) {
+    .accordion {
+        width: 100%;
+        max-width: 400px;
+    }
+}

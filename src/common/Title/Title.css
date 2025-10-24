@@ -16,13 +16,34 @@
     }
 }
 
+/* Tablet Media Query */
+@media (max-width: 1265px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
 .highlight {
     padding: 0.7rem 0.7rem;
     background:  #1283a236;
     border-radius: 15px;
 }
 
-.new-color {
+.newColor {
     color: var(--azul-claro);
     background: linear-gradient(to right, var(--azul-claro), var(--azul-claro));
     background-clip: text;

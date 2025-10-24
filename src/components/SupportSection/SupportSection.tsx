@@ -2,7 +2,7 @@ import "./SupportSection.css";
 import Accordion from "../Accordion/Accordion"
 import { ContactForm } from "../ContactForm/ContactForm";
 import { WritingText } from "../ui/writing";
-import { MotionEffect } from "../ui/motion-effects";
+import { MotionEffect } from "../ui/motionEffects";
 const SupportSection = () => {
     return (
         <div className="supportSection">

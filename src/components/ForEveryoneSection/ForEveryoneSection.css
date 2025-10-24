@@ -1,28 +1,32 @@
-.for-everyone-section {
+.forEveryoneSection {
     padding: 7rem 0;
     display: flex;
     justify-content: center;
 }
 
-.for-everyone-container {
+.forEveryoneContainer {
     width: 1400px;
     display: flex;
     flex-direction: column;
     gap: 7rem;
 }
 
-.upper-container {
+.upperContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.p-for-everyone {
+.pForEveryone {
+    font-size: 1.5rem;
     color: #374151;
+    font-weight: 250;
 }
 
-.down-container {
+.downContainer {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -30,13 +34,118 @@
 
 }
 
-.for-everyone-points-container {
+.forEveryonePointsContainer {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 53%;
 }
 
-.work-items-image {
+.workItemsImage {
     width: 35rem;
     height: auto;
+}
+
+/* Tablet Media Query - Mantiene layout horizontal pero más pequeño */
+@media (max-width: 1265px) {
+    .forEveryoneContainer {
+        width: 100%;
+        max-width: 900px;
+        gap: 5rem;
+    }
+
+    .upperContainer {
+        gap: 2rem;
+    }
+
+    .downContainer {
+        gap: 2rem;
+    }
+
+    .forEveryonePointsContainer {
+        width: 60%;
+    }
+
+    .workItemsImage {
+        width: 30rem;
+    }
+}
+
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
+    .forEveryoneContainer {
+        width: 1200px;
+        gap: 5.5rem;
+    }
+
+    .pForEveryone {
+        font-size: 1.1rem;
+    }
+
+    .workItemsImage {
+        width: 32rem;
+    }
+}
+
+/* Tablet Media Query - Cambia a columna */
+@media (max-width: 1012px) {
+    .forEveryoneContainer {
+        gap: 3rem;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .upperContainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .downContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .forEveryonePointsContainer {
+        width: 80%;
+    }
+
+    .workItemsImage {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .pForEveryone {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px) {
+    .forEveryoneContainer {
+        gap: 1.5rem;
+    }
+
+    .upperContainer {
+        gap: 0.8rem;
+    }
+
+    .downContainer {
+        gap: 1rem;
+    }
+
+    .workItemsImage {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .pForEveryone {
+        font-size: 0.8rem;
+        padding: 0 0.5rem;
+        text-align: center;
+    }
 }

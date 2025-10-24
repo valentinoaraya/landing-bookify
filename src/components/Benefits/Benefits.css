@@ -2,15 +2,19 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
+
 .effectTitle {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
+
+
 .titleDiv {
-    padding: 0.2rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.2rem 0;
     border-bottom: 2px solid var(--azul-claro);
 }
 
@@ -18,7 +22,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 2rem;
     margin-top: 10rem;
     width: 1400px;
     height: 100%;
@@ -35,6 +39,7 @@
 
 .specialCardDiv {
     height: 100%;
+
 }
 
 .bottomCard {
@@ -42,8 +47,109 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     margin-top: 1.5rem;
 }
 
+/* Desktop Large Media Query */
+@media (max-width: 1500px) {
+    .benefitsCards {
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 6rem;
+        gap: 30px;
+    }
+
+    .bottomCard {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .effectTitle {
+        font-size: 2.3rem;
+    }
+
+    .benefitsList {
+        gap: 25px;
+    }
+}
+
+/* Tablet Media Query - Mantiene layout horizontal pero más pequeño */
+@media (max-width: 1265px) {
+    .benefitsCards {
+        width: 100%;
+        max-width: 900px;
+        margin-top: 6rem;
+        gap: 30px;
+    }
+
+    .bottomCard {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .effectTitle {
+        font-size: 2.2rem;
+    }
+
+    .benefitsList {
+        gap: 25px;
+    }
+}
+
+/* Tablet Media Query - Cambia a columna */
+@media (max-width: 1012px) {
+    .benefits {
+        align-items: center;
+    }
+    .benefitsCards {
+        width: 550px;
+        flex-direction: column;
+        margin-top: 3rem;
+        gap: 18px;
+    }
+
+    .bottomCard {
+        width: 550px;
+    }
+
+    .benefitsList {
+        width: 550px;
+        gap: 18px;
+    }
+
+    .specialCardDiv {
+        width: 550px;
+        order: -1; /* Mover la tarjeta especial arriba en móvil */
+    }
+
+    .effectTitle {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .titleDiv {
+        text-align: center;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 500px) {
+    .benefitsCards {
+        margin-top: 2.5rem;
+        gap: 12px;
+    }
+
+    .bottomCard {
+        width: 100%;
+    }
+
+    .benefitsList {
+        gap: 12px;
+    }
+
+    .effectTitle {
+        font-size: 1.5rem;
+    }
+}
 

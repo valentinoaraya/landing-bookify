@@ -5,4 +5,27 @@
     margin-top: 5rem;
 }
 
+/* Tablet Media Query */
+@media (max-width: 1265px) {
+    .priceCardDiv {
+        margin-top: 4rem;
+        padding: 0 2rem;
+    }
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+    .priceCardDiv {
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .priceCardDiv {
+        margin-top: 2rem;
+        padding: 0 0.5rem;
+    }
+}
+
 
