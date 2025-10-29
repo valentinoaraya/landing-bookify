@@ -150,16 +150,13 @@
 /* Tablet Media Query */
 @media (max-width: 1012px) {
     .navBarContainer {
-        margin: 0.8rem 1rem;
-        padding: 0.8rem;
+        margin: 1rem 1rem;
+        padding: 1rem 1.5rem;
+        width: 650px;
     }
 
     .titleNavBar {
         font-size: 1.8rem;
-    }
-
-    .sideBar {
-        width: 70%;
     }
 }
 
@@ -172,9 +169,5 @@
 
     .titleNavBar {
         font-size: 1.6rem;
-    }
-
-    .sideBar {
-        width: 80%;
     }
 }

@@ -88,19 +88,19 @@
 
 /* Tablet Media Query - Cambia a columna */
 @media (max-width: 1012px) {
+    .forEveryoneSection {
+        padding-bottom: 0;
+    }
+
     .forEveryoneContainer {
         gap: 3rem;
         align-items: center;
     }
 
-    h1 {
-        text-align: center;
-    }
-
     .upperContainer {
         flex-direction: column;
         text-align: center;
-        gap: 1.5rem;
+        gap: 3.5rem;
     }
 
     .downContainer {
@@ -110,11 +110,16 @@
 
     .forEveryonePointsContainer {
         width: 80%;
+        text-align: center;
+    }
+
+    .listItemsContainer {
+        border-right:1px solid #1282a2;
     }
 
     .workItemsImage {
         width: 100%;
-        max-width: 350px;
+        max-width: 500px;
     }
 
     .pForEveryone {

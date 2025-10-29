@@ -3,6 +3,12 @@ main {
     max-width: 1400px;
 }
 
+#benefits {
+    width: 100%;
+    padding: 9rem 0;
+    display: block;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1265px) {
     main {
@@ -48,12 +54,12 @@ main {
 
     #benefits {
         width: 100%;
-        padding: 4rem 0;
+        padding: 7rem 0;
         display: block;
     }
 
     .forEveryoneSection {
-        padding: 3rem 0;
+        padding: 0 0;
     }
 }
 
@@ -72,10 +78,4 @@ main {
     .forEveryoneSection {
         padding: 2rem 0;
     }
-}
-
-#benefits {
-    width: 100%;
-    padding: 9rem 0;
-    display: block;
 }

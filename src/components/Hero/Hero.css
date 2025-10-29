@@ -73,7 +73,7 @@
 /* Tablet Media Query */
 @media (max-width: 1012px) {
     .heroContainer {
-        margin: 8rem auto 2rem auto;
+        margin: 8rem auto 0rem auto;
         max-width: 600px;
         padding: 0 1rem;
     }
