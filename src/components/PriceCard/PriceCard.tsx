@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../common/Button/Button";
-import DolarBlue from "../DolarBlue/DolarBlue";
 import "./PriceCard.css";
+//import DolarBlue from "../DolarBlue/DolarBlue";
 
 interface PriceCardProps {
     title: string;
@@ -26,7 +26,9 @@ const PriceCard: React.FC<PriceCardProps> = ({
                     <li key={index}>{feature}</li>
                 ))}
             </ul>
-            <Button width="70%">Comenzá Ahora</Button>
+            <Button width="70%"
+            onSubmit={() => window.open("https://www.instagram.com/aedes.tech/", '_blank')}
+            >Comenzá Ahora</Button>
         </div>
     );
 };
