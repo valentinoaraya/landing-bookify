@@ -3,13 +3,42 @@ import Title from "../../common/Title/Title";
 import workItems from "../../assets/images/workItems.png"
 import ListItem from "../ListItem/ListItem";
 import { MotionEffect } from "../ui/motionEffects";
+import { useEffect, useState } from "react";
 
 const ForEveryoneSection = () => {
+    // Responsive font size para title
+    const [fontSize, setFontSize] = useState(() => {
+        if (typeof window === 'undefined') return "3rem";
+        if (window.innerWidth <= 590) return "1.6rem";
+        if (window.innerWidth <= 1012) return "2rem";
+        return "3rem";
+    });
+
+    type Align = "left" | "center" | "right";
+    const [textAlign, setTextAlign] = useState<Align>(() => (typeof window !== "undefined" && window.innerWidth <= 1012 ? 'center' : 'left'));
+    useEffect(() => {
+        const handleResize = () => {
+            setTextAlign(window.innerWidth <= 1012 ? 'center' : 'left');
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 590 && fontSize !== "1.6rem") setFontSize("1.6rem");
+            else if (window.innerWidth <= 1012 && window.innerWidth > 590 && fontSize !== "2rem") setFontSize("2rem");
+            else if (window.innerWidth > 1012 && fontSize !== "3rem") setFontSize("3rem");
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, [fontSize]);
+
     return (
         <div className="forEveryoneContainer">
             <MotionEffect slide={{ direction: 'down' }} fade zoom inView delay={0.15}>
                 <div className="upperContainer">
-                    <Title fontSize={window.innerWidth <= 1012 ? "2rem" : "3rem"} textAlign={window.innerWidth <= 1012 ? "center" : "left"}>
+                    <Title fontSize={fontSize} textAlign={textAlign}>
                         Un sistema hecho para <span className="newColor">todos</span>. <br /> Sin importar el <span className="newColor">rubro</span> ni el <span className="newColor">tamaño</span>.
                     </Title>
 

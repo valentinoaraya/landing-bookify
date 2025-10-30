@@ -132,22 +132,25 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
+@media (max-width: 590px) {
+    .benefitsCards,
+    .bottomCard,
+    .benefitsList,
+    .specialCardDiv {
+        width: 100%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .benefitsCards {
         margin-top: 2.5rem;
         gap: 12px;
     }
-
-    .bottomCard {
-        width: 100%;
-    }
-
     .benefitsList {
         gap: 12px;
     }
-
     .effectTitle {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
