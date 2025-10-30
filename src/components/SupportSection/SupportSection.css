@@ -62,11 +62,11 @@
 /* Mobile Media Query */
 @media (max-width: 1012px) {
     .supportSection {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     .supportSectionContent {
-        gap: 2rem;
+        gap: 3.5rem;
         margin-top: 4rem;
     }
 
@@ -80,9 +80,9 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 590px) {
     .supportSection {
-        padding: 2rem 0;
+        padding: 7rem 0;
     }
 
     .supportSectionContent {
@@ -91,7 +91,12 @@
     }
 
     .effectTitle {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: center;
     }
+
+    .titleDiv {
+        width: 350px;
+    }
+
 }

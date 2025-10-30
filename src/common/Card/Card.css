@@ -105,11 +105,7 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
-    .card {
-        padding: 4px;
-    }
-
+@media (max-width: 590px) {
     .cardTitle {
         font-size: 1rem;
     }

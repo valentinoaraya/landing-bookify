@@ -88,19 +88,20 @@
 
 /* Tablet Media Query - Cambia a columna */
 @media (max-width: 1012px) {
+    .forEveryoneSection {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
     .forEveryoneContainer {
         gap: 3rem;
         align-items: center;
     }
 
-    h1 {
-        text-align: center;
-    }
-
     .upperContainer {
         flex-direction: column;
         text-align: center;
-        gap: 1.5rem;
+        gap: 3.5rem;
     }
 
     .downContainer {
@@ -110,11 +111,16 @@
 
     .forEveryonePointsContainer {
         width: 80%;
+        text-align: center;
+    }
+
+    .listItemsContainer {
+        border-right:1px solid #1282a2;
     }
 
     .workItemsImage {
         width: 100%;
-        max-width: 350px;
+        max-width: 500px;
     }
 
     .pForEveryone {
@@ -125,13 +131,13 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
+@media (max-width: 590px) {
     .forEveryoneContainer {
         gap: 1.5rem;
     }
 
     .upperContainer {
-        gap: 0.8rem;
+        gap: 2rem;
     }
 
     .downContainer {
@@ -140,12 +146,16 @@
 
     .workItemsImage {
         width: 100%;
-        max-width: 250px;
+        max-width: 300px;
     }
 
     .pForEveryone {
         font-size: 0.8rem;
         padding: 0 0.5rem;
         text-align: center;
+    }
+
+    .listText {
+        font-size: 1.2rem;
     }
 }

@@ -71,47 +71,6 @@
     cursor: pointer;
 }
 
-.sideBar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    background-color: var(--azul);
-    right: -400px;
-    width: 50%;
-    height: 100vh;
-    transition: right 0.3s ease-in-out;
-    box-shadow: -7px 0px 36px 4px var(--azul-claro);
-    z-index: 1000;
-    align-items: end;
-    padding: 0;
-}
-
-.sideBar.open {
-    right: 0;
-}
-
-.ulSideBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 2rem;
-    gap: 2rem;
-    padding: 0;
-    align-self: flex-start;
-}
-
-.liSideBar {
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.1s ease;
-}
-
-.closeButton {
-    margin: 2rem;
-}
-
 /* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .navBarContainer {
@@ -125,6 +84,7 @@
     .navBar {
         display: flex;
         justify-content: center;
+        position: fixed;
     }
 
     .navBarContainer {
@@ -149,32 +109,37 @@
 
 /* Tablet Media Query */
 @media (max-width: 1012px) {
+    .navBar {
+        position: fixed;
+    }
+
     .navBarContainer {
-        margin: 0.8rem 1rem;
-        padding: 0.8rem;
+        margin: 1rem 1rem;
+        padding: 1rem 1.5rem;
+        width: 650px;
     }
 
     .titleNavBar {
         font-size: 1.8rem;
     }
-
-    .sideBar {
-        width: 70%;
-    }
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
+@media (max-width: 590px) {
+    .navBar{
+        position: fixed;
+        width: 100%;
+    }
+
     .navBarContainer {
         padding: 0.8rem;
-        margin: 0.4rem;
     }
 
     .titleNavBar {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
-    .sideBar {
-        width: 80%;
+    .liNavBar {
+        font-size: 0.7rem;
     }
 }

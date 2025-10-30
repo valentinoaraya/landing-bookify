@@ -6,7 +6,6 @@
     margin: 14rem auto 2rem auto;
     width: 100%;
     max-width: 1200px;
-    padding: 0 2rem;
 }
 
 .heroContainer .title {
@@ -49,7 +48,6 @@
     .heroContainer {
         margin: 12rem auto 2rem auto;
         max-width: 900px;
-        padding: 0 1.5rem;
     }
 
     .heroContainer .title {
@@ -73,9 +71,8 @@
 /* Tablet Media Query */
 @media (max-width: 1012px) {
     .heroContainer {
-        margin: 8rem auto 2rem auto;
+        margin: 8rem auto 0rem auto;
         max-width: 600px;
-        padding: 0 1rem;
     }
 
     .heroContainer .title {
@@ -99,21 +96,16 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
-    .heroContainer {
-        margin: 5rem auto 1rem auto;
-        max-width: 100%;
-        padding: 0 0.5rem;
-    }
+@media (max-width: 590px) {
 
     .heroContainer .title {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         text-align: center;
     }
 
     .heroImage {
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         margin: 1.2rem auto 0 auto;
         padding: 0.25rem;
     }

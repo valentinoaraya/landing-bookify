@@ -139,4 +139,10 @@
         flex-direction: column;
         gap: 1.5rem;
     }
+
+@media (max-width: 590px) {
+    .contactContainer {
+        max-width: 350px;
+    }
+}
 }

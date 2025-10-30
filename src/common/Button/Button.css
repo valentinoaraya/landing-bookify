@@ -68,7 +68,7 @@
 }
 
 /* Mobile Media Query */
-@media (max-width: 500px) {
+@media (max-width: 590px) {
     .button {
         padding: 0.8rem 0;
         font-size: 1rem;
