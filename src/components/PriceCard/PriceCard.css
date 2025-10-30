@@ -39,6 +39,7 @@
     list-style: none;
     padding: 0rem;
     margin-bottom: 4.5rem;
+    margin-top: 2rem;
 }
 
 .priceCardFeatures li {
@@ -98,6 +99,7 @@
 
     .priceCardFeatures {
         margin-bottom: 3rem;
+        margin-top: 0.7rem;
     }
 
     .priceCardFeatures li {

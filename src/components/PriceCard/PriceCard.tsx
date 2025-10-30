@@ -21,7 +21,6 @@ const PriceCard: React.FC<PriceCardProps> = ({
         <div className={`priceCard ${highlight ? "highlight" : ""}`}>
             <h3 className="priceCardTitle">{title}</h3>
             <p className="priceCardPrice">{price}</p>
-            <DolarBlue />
             <ul className="priceCardFeatures">
                 {features.map((feature, index) => (
                     <li key={index}>{feature}</li>
