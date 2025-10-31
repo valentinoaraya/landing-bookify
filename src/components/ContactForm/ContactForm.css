@@ -130,7 +130,13 @@
 /* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .contactContainer {
-        max-width: 500px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 1012px) {
+    .contactContainer {
+        max-width: 520px;
     }
 }
 

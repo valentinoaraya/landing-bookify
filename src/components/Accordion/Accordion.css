@@ -81,7 +81,7 @@ svg {
 /* Desktop Large Media Query */
 @media (max-width: 1500px) {
     .accordion {
-        width: 610px;
+        width: 600px;
     }
 }
 

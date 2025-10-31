@@ -1,30 +1,72 @@
+.priceDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.5rem;
+    width: 100%;
+    max-width: 1450px;
+}
+
 .priceCardDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
+    flex: 1;
+    max-width: 400px;
+}
+
+@media (max-width: 1500px) {
+    .priceDiv {
+        max-width: 850px;
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .priceCardDiv {
+        margin-top: 4rem;
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 /* Tablet Media Query */
 @media (max-width: 1265px) {
+    .priceDiv {
+        max-width: 850px;
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
     .priceCardDiv {
         margin-top: 4rem;
-        padding: 0 0;
+        max-width: 100%;
+        width: 100%;
     }
 }
 
 /* Mobile Media Query */
-@media (max-width: 768px) {
+@media (max-width: 1012px) {
+    .priceDiv {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
     .priceCardDiv {
         margin-top: 3rem;
-        padding: 0 0;
+        max-width: 100%;
+        width: 100%;
     }
 }
 
 @media (max-width: 590px) {
     .priceCardDiv {
         margin-top: 2rem;
-        padding: 0 0;
+        width: 350px;
     }
 }
 

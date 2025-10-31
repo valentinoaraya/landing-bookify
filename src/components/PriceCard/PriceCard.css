@@ -8,8 +8,9 @@
     padding: 3rem;
     text-align: center;
     box-shadow: 0 8px 20px rgba(33, 102, 96, 0.558);
-    height: 100%;
+    width: 28rem;
     margin: 1rem;
+    height: 960px;
 }
 
 .priceCard.highlight {
@@ -19,7 +20,7 @@
 }
 
 .priceCardTitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 4rem;
     padding: 0.3rem;
@@ -27,7 +28,7 @@
 }
 
 .priceCardPrice {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--azul-claro);
     background: linear-gradient(to bottom, var(--azul-oscuro), var(--azul-claro));
@@ -40,6 +41,8 @@
     padding: 0rem;
     margin-bottom: 4.5rem;
     margin-top: 2rem;
+    flex: 1;
+    min-height: 400px;
 }
 
 .priceCardFeatures li {
@@ -58,8 +61,8 @@
 @media (max-width: 1500px) {
     .priceCard {
         padding: 2rem;
-        width: 100%;
-        max-width: 550px;
+        width: 600px;
+        height: 100%;
     }
 
     .priceCardTitle {
@@ -73,6 +76,7 @@
 
     .priceCardFeatures {
         margin-bottom: 4rem;
+        min-height: 400px;
     }
 
     .priceCardFeatures li {
@@ -84,8 +88,7 @@
 @media (max-width: 1012px) {
     .priceCard {
         padding: 1.2rem;
-        width: 100%;
-        max-width: 450px;
+        width: 520px;
     }
 
     .priceCardTitle {
@@ -100,6 +103,7 @@
     .priceCardFeatures {
         margin-bottom: 3rem;
         margin-top: 0.7rem;
+        min-height: 350px;
     }
 
     .priceCardFeatures li {
@@ -112,7 +116,7 @@
     .priceCard {
         padding: 0.8rem;
         margin: 0.3rem;
-        max-width: 350px;
+        width: 350px;
     }
 
     .priceCardTitle {
@@ -126,6 +130,7 @@
 
     .priceCardFeatures {
         margin-bottom: 2.5rem;
+        min-height: 280px;
     }
 
     .priceCardFeatures li {
