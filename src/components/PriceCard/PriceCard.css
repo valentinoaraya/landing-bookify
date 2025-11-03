@@ -10,6 +10,12 @@
     box-shadow: 0 8px 20px rgba(33, 102, 96, 0.558);
     width: 28rem;
     margin: 1rem;
+    transition: all .2s ease;
+}
+
+.priceCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(33, 102, 96, 0.658);
 }
 
 .priceCard.highlight {

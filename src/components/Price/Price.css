@@ -24,7 +24,7 @@
         align-items: center;
         margin: 0 auto;
     }
-    
+
     .priceCardDiv {
         margin-top: 4rem;
         max-width: 100%;
@@ -41,7 +41,7 @@
         align-items: center;
         margin: 0 auto;
     }
-    
+
     .priceCardDiv {
         margin-top: 4rem;
         max-width: 100%;
@@ -55,7 +55,7 @@
         flex-direction: column;
         gap: 1rem;
     }
-    
+
     .priceCardDiv {
         margin-top: 3rem;
         max-width: 100%;
@@ -69,5 +69,3 @@
         width: 350px;
     }
 }
-
-
