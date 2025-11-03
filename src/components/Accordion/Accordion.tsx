@@ -23,7 +23,7 @@ const componentAccordion = () => {
             </AccordionItem>
             <AccordionItem className="accordionItem">
                 <AccordionTrigger className="accordionTrigger">¿Puedo manejar varios servicios o profesionales al mismo tiempo?</AccordionTrigger>
-                <AccordionPanel className="accordionPanelContent">Sí, con el Plan Equipo podés crear servicios ilimitados e incluir hasta 5 profesionales dentro de tu cuenta. El plan Individual ofrece hasta 5 servicios y el Plan Individual Plus ofrece servicios ilimitados pero ambos para un solo profecional.</AccordionPanel>
+                <AccordionPanel className="accordionPanelContent">Sí, con el Plan Equipo podés crear servicios ilimitados e incluir hasta 5 profesionales dentro de tu cuenta. Si deseas agregar más profesionales, se cobrará un adicional de $5.000 por profesional adicional. El plan Individual ofrece hasta 5 servicios y el Plan Individual Plus ofrece servicios ilimitados pero ambos para un solo profecional.</AccordionPanel>
             </AccordionItem>
             <AccordionItem className="accordionItem">
                 <AccordionTrigger className="accordionTrigger">¿Es obligatorio cobrar señas?</AccordionTrigger>
