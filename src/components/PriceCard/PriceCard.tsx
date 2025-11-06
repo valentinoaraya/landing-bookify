@@ -27,7 +27,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
                 ))}
             </ul>
             <Button width="70%"
-            onSubmit={() => window.open("https://www.instagram.com/aedes.tech/", '_blank')}
+            onSubmit={() => window.open("https://bookify.aedestec.com/register/company", '_blank')}
             >Comenzá Ahora</Button>
         </div>
     );

@@ -11,7 +11,7 @@ const Hero = () => {
             <p className="pHero">Configurá tus turnos, compartí un link con tus clientes y empezá a recibir reservas. Todo desde una sola plataforma.</p>
             <Button
                 width="300px"
-                onSubmit={() => window.open("https://www.instagram.com/aedes.tech/", '_blank')}
+                onSubmit={() => window.open("https://bookify.aedestec.com/", '_blank')}
             >
                 Comenzá Ahora
             </Button>

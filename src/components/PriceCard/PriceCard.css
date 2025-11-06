@@ -43,14 +43,18 @@
 
 .priceCardFeatures {
     list-style: none;
-    padding: 0rem;
     margin-top: 2rem;
     flex: 1;
     min-height: 400px;
+    max-width:325px;
+}
+
+.priceCardFeatures {
+    margin-bottom: 4rem;
 }
 
 .priceCardFeatures li {
-    margin: 1rem 0;
+    margin: 1.2rem 0;
     text-align: left;
     font-size: 1.2rem;
 }
@@ -112,13 +116,14 @@
 
     .priceCardFeatures li {
         font-size: 1rem;
+        max-width: 285px;
     }
 }
 
 /* Mobile Media Query */
 @media (max-width: 590px) {
     .priceCard {
-        padding: 0.8rem;
+        padding: 1.2rem;
         margin: 0.3rem;
         width: 350px;
     }
@@ -139,5 +144,6 @@
 
     .priceCardFeatures li {
         font-size: 0.9rem;
+        max-width: 200px;
     }
 }
