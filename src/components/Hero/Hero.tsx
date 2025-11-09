@@ -15,12 +15,16 @@ const Hero = () => {
             >
                 Comenzá Ahora
             </Button>
-            <div className="heroImage" style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
-                <iframe 
-                    src="https://www.loom.com/embed/a6d20e360dd841b49e9066900202780e" 
-                    allowFullScreen
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-                />
+            <div className="heroImage">
+                <div className="youtubeVideo">
+                    <iframe
+                        src="https://www.youtube.com/embed/TgdDMe12cCQ?controls=1&modestbranding=1&rel=0&enablejsapi=1"
+                        title="Guía rápida Bookify - Aedes"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        id="youtube-video"
+                    />
+                </div>
             </div>
         </div>
     );
