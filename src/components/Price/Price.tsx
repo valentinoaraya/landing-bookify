@@ -7,7 +7,7 @@ const Price = () => {
         <div className="priceDiv">
             <MotionEffect slide={{ direction: 'up' }} fade zoom inView delay={0.01}>
                 <div className="priceCardDiv">
-                    <PriceCard title="Plan Inividual" price="$12.000 / mes" features={["1 profesional", "Hasta 5 servicios", "Recordatorios y emails automáticos", "Pagos online con Mercado Pago", "Rembolsos automáticos", "Historial completo de movimientos", "Soporte por correo"]}></PriceCard>
+                    <PriceCard title="Plan Individual" price="$12.000 / mes" features={["1 profesional", "Hasta 5 servicios", "Recordatorios y emails automáticos", "Pagos online con Mercado Pago", "Rembolsos automáticos", "Historial completo de movimientos", "Soporte por correo"]}></PriceCard>
                 </div>
             </MotionEffect>
 
@@ -19,7 +19,7 @@ const Price = () => {
 
             <MotionEffect slide={{ direction: 'up' }} fade zoom inView delay={0.01}>
                 <div className="priceCardDiv">
-                    <PriceCard title="Plan Equipo" price="Proximamente..." features={["Incluye Plan Individual Plus por profesional", "Hasta 5 profesionales", "Dashborard administrativo", "Gestión de agendas separadas", "Historial completo de movimientos por profesional", "Historial centralizado de pacientes", "+ Profesionales adicionales: $5.000 / mes cada profesional"]}></PriceCard>
+                    <PriceCard title="Plan Equipo" price="Próximamente..." features={["Incluye Plan Individual Plus por profesional", "Hasta 5 profesionales", "Dashboard administrativo", "Gestión de agendas separadas", "Historial completo de movimientos por profesional", "Historial centralizado de pacientes", "+ Profesionales adicionales: $5.000 / mes cada profesional"]}></PriceCard>
                 </div>
             </MotionEffect>
         </div>
