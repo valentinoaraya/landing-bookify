@@ -1,7 +1,7 @@
 import Card from '../../common/Card/Card';
 import SpecialCard from '../../common/Card/SpecialCard/SpecialCard';
 import './Benefits.css';
-import specialCardImage from '../../assets/images/specialCardImage.svg';
+import specialCardImage from '../../assets/images/specialCardImage.png';
 import refundUrlIcon from '../../assets/Icons/Refund.svg';
 import Adavantageicon from '../../assets/Icons/Advantage.svg';
 import MailIcon from '../../assets/Icons/mail.svg';
