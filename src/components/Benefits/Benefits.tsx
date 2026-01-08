@@ -56,7 +56,7 @@ const Benefits = () => {
                             image={specialCardImage}
                             title="Cobrales la seña antes del turno"
                             description={
-                                "Conectate con Mercado Pago o Paypal, habilitando la posibilidad de cobrar señas para confirmar turnos de forma rápida y segura."
+                                "Conectate con Mercado Pago, habilitando la posibilidad de cobrar señas para confirmar turnos de forma rápida y segura."
                             }
                         />
                     </MotionEffect>
