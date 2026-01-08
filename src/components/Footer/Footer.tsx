@@ -8,7 +8,7 @@ const Footer = () => {
                 <h3 className="footerTitle">
                     Bookify by <a href="https://aedestec.com" target="_blank" rel="noopener noreferrer" className="aedesLink">Aedes</a>
                 </h3>
-                <p className="pFooter">© 2025 Bookify. Todos los derechos reservados.</p>
+                <p className="pFooter">© 2026 Bookify. Todos los derechos reservados.</p>
             </div>
             <div className="footerContacts">
                 <div className="contact">
